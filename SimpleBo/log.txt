@@ -1,0 +1,586 @@
+Begin initializing...
+Simulate the 0-th sample... with metric: 1.708e+01
+Simulate the 1-th sample... with metric: 4.253e+01
+Simulate the 2-th sample... with metric: 3.228e+01
+Simulate the 3-th sample... with metric: 2.300e+01
+Simulate the 4-th sample... with metric: 2.114e+01
+Simulate the 5-th sample... with metric: 2.721e+01
+Simulate the 6-th sample... with metric: 3.872e+01
+Simulate the 7-th sample... with metric: 4.011e+01
+Simulate the 8-th sample... with metric: 2.457e+01
+Simulate the 9-th sample... with metric: 3.526e+01
+Simulate the 10-th sample... with metric: 2.584e+01
+Simulate the 11-th sample... with metric: 2.331e+01
+Simulate the 12-th sample... with metric: 2.293e+01
+Simulate the 13-th sample... with metric: 9.452e+00
+Simulate the 14-th sample... with metric: 3.954e+01
+Simulate the 15-th sample... with metric: 3.390e+01
+Simulate the 16-th sample... with metric: 3.586e+01
+Simulate the 17-th sample... with metric: 4.145e+01
+Simulate the 18-th sample... with metric: 1.804e+01
+Simulate the 19-th sample... with metric: 2.816e+01
+Simulate the 20-th sample... with metric: 2.872e+01
+Simulate the 21-th sample... with metric: 3.107e+01
+Simulate the 22-th sample... with metric: 3.488e+01
+Simulate the 23-th sample... with metric: 1.920e+01
+Simulate the 24-th sample... with metric: 2.531e+01
+Simulate the 25-th sample... with metric: 3.420e+01
+Simulate the 26-th sample... with metric: 3.603e+01
+Simulate the 27-th sample... with metric: 4.768e+01
+Simulate the 28-th sample... with metric: 2.933e+01
+Simulate the 29-th sample... with metric: 4.155e+01
+Simulate the 30-th sample... with metric: 4.133e+01
+Simulate the 31-th sample... with metric: 2.983e+01
+Simulate the 32-th sample... with metric: 2.222e+01
+Simulate the 33-th sample... with metric: 2.548e+01
+Simulate the 34-th sample... with metric: 3.028e+01
+Simulate the 35-th sample... with metric: 2.460e+01
+Simulate the 36-th sample... with metric: 2.420e+01
+Simulate the 37-th sample... with metric: 2.324e+01
+Simulate the 38-th sample... with metric: 3.068e+01
+Simulate the 39-th sample... with metric: 4.248e+01
+Finish initialization with best metric: 9.452e+00
+----------
+Number of function evaluations: 41
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 7.948e+00, std:3.181e+00
+Acq(new sampled X): 6.994e+00
+Y(new sampled X): 5.773e+00, simulation time: 1.001e-05
+Current best design:  [-0.07413279  0.1016519  -1.21125647 -1.26595806  0.34336581  0.82462942
+  0.49016242  0.91620862  0.87532153 -0.20849432]
+Current best function value: 5.773e+00
+----------
+Number of function evaluations: 42
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 5.732e+00, std:1.176e+00
+Acq(new sampled X): 5.379e+00
+Y(new sampled X): 7.299e+00, simulation time: 1.001e-05
+Current best design:  [-0.07413279  0.1016519  -1.21125647 -1.26595806  0.34336581  0.82462942
+  0.49016242  0.91620862  0.87532153 -0.20849432]
+Current best function value: 5.773e+00
+----------
+Number of function evaluations: 43
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.983e+00, std:1.219e+00
+Acq(new sampled X): 4.618e+00
+Y(new sampled X): 3.148e+00, simulation time: 8.821e-06
+Current best design:  [-0.15983376 -0.01395354 -0.88793207 -0.66416989  0.32928151  0.46273678
+  0.51775182  0.74217585  0.81793176 -0.28605479]
+Current best function value: 3.148e+00
+----------
+Number of function evaluations: 44
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 2.333e+00, std:1.420e+00
+Acq(new sampled X): 1.907e+00
+Y(new sampled X): 2.240e+00, simulation time: 1.001e-05
+Current best design:  [-0.24803724 -0.3046815  -0.44084434 -0.20028745  0.31651156  0.33265719
+  0.73229819  0.8729915   0.51835628 -0.27131491]
+Current best function value: 2.240e+00
+----------
+Number of function evaluations: 45
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 2.314e+00, std:8.825e-01
+Acq(new sampled X): 2.049e+00
+Y(new sampled X): 2.823e+00, simulation time: 9.298e-06
+Current best design:  [-0.24803724 -0.3046815  -0.44084434 -0.20028745  0.31651156  0.33265719
+  0.73229819  0.8729915   0.51835628 -0.27131491]
+Current best function value: 2.240e+00
+----------
+Number of function evaluations: 46
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.985e+00, std:9.148e-01
+Acq(new sampled X): 1.710e+00
+Y(new sampled X): 1.388e+00, simulation time: 9.060e-06
+Current best design:  [-0.10458101 -0.10646097 -0.30358994 -0.37516823  0.25715845  0.29995991
+  0.48416712  0.72027535  0.24837928 -0.40260241]
+Current best function value: 1.388e+00
+----------
+Number of function evaluations: 47
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.368e+00, std:8.346e-01
+Acq(new sampled X): 1.118e+00
+Y(new sampled X): 1.531e+00, simulation time: 1.311e-05
+Current best design:  [-0.10458101 -0.10646097 -0.30358994 -0.37516823  0.25715845  0.29995991
+  0.48416712  0.72027535  0.24837928 -0.40260241]
+Current best function value: 1.388e+00
+----------
+Number of function evaluations: 48
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.382e+00, std:8.259e-01
+Acq(new sampled X): 1.134e+00
+Y(new sampled X): 1.659e+00, simulation time: 1.001e-05
+Current best design:  [-0.10458101 -0.10646097 -0.30358994 -0.37516823  0.25715845  0.29995991
+  0.48416712  0.72027535  0.24837928 -0.40260241]
+Current best function value: 1.388e+00
+----------
+Number of function evaluations: 49
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.368e+00, std:6.993e-01
+Acq(new sampled X): 1.158e+00
+Y(new sampled X): 8.455e-01, simulation time: 1.001e-05
+Current best design:  [-0.22842443 -0.0134075  -0.20743848 -0.29635032  0.25620313  0.31493748
+  0.2806624   0.57531278  0.05681179 -0.29072943]
+Current best function value: 8.455e-01
+----------
+Number of function evaluations: 50
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 8.182e-01, std:6.951e-01
+Acq(new sampled X): 6.096e-01
+Y(new sampled X): 8.913e-01, simulation time: 8.821e-06
+Current best design:  [-0.22842443 -0.0134075  -0.20743848 -0.29635032  0.25620313  0.31493748
+  0.2806624   0.57531278  0.05681179 -0.29072943]
+Current best function value: 8.455e-01
+----------
+Number of function evaluations: 51
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 8.034e-01, std:4.930e-01
+Acq(new sampled X): 6.555e-01
+Y(new sampled X): 7.325e-01, simulation time: 1.311e-05
+Current best design:  [-0.36962429  0.05775308 -0.07143419 -0.2274437   0.26055838  0.4636231
+  0.22125028  0.42001967 -0.04293963 -0.16028518]
+Current best function value: 7.325e-01
+----------
+Number of function evaluations: 52
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 7.678e-01, std:3.295e-01
+Acq(new sampled X): 6.690e-01
+Y(new sampled X): 7.695e-01, simulation time: 1.001e-05
+Current best design:  [-0.36962429  0.05775308 -0.07143419 -0.2274437   0.26055838  0.4636231
+  0.22125028  0.42001967 -0.04293963 -0.16028518]
+Current best function value: 7.325e-01
+----------
+Number of function evaluations: 53
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 7.510e-01, std:2.698e-01
+Acq(new sampled X): 6.700e-01
+Y(new sampled X): 6.371e-01, simulation time: 1.001e-05
+Current best design:  [-0.39580991 -0.02418445 -0.09118388 -0.24819825  0.23685239  0.35340367
+  0.21071601  0.37832431 -0.09761431 -0.17867634]
+Current best function value: 6.371e-01
+----------
+Number of function evaluations: 54
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.849e-01, std:2.562e-01
+Acq(new sampled X): 6.080e-01
+Y(new sampled X): 6.859e-01, simulation time: 1.478e-05
+Current best design:  [-0.39580991 -0.02418445 -0.09118388 -0.24819825  0.23685239  0.35340367
+  0.21071601  0.37832431 -0.09761431 -0.17867634]
+Current best function value: 6.371e-01
+----------
+Number of function evaluations: 55
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.775e-01, std:2.215e-01
+Acq(new sampled X): 6.110e-01
+Y(new sampled X): 5.128e-01, simulation time: 9.060e-06
+Current best design:  [-0.34982794 -0.03299268 -0.11003077 -0.23427489  0.1567754   0.31568201
+  0.2056737   0.33594804 -0.1496061  -0.14344782]
+Current best function value: 5.128e-01
+----------
+Number of function evaluations: 56
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 5.589e-01, std:2.390e-01
+Acq(new sampled X): 4.872e-01
+Y(new sampled X): 4.044e-01, simulation time: 1.025e-05
+Current best design:  [-0.27899899 -0.02604527 -0.14003973 -0.21152154  0.05077562  0.27359352
+  0.19576797  0.29879838 -0.21296386 -0.10562804]
+Current best function value: 4.044e-01
+----------
+Number of function evaluations: 57
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.570e-01, std:2.285e-01
+Acq(new sampled X): 3.885e-01
+Y(new sampled X): 3.766e-01, simulation time: 1.025e-05
+Current best design:  [-0.21339029  0.01703683 -0.07866466 -0.23654237 -0.00307413  0.25858536
+  0.16705103  0.29451015 -0.28996056 -0.0555478 ]
+Current best function value: 3.766e-01
+----------
+Number of function evaluations: 58
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.164e-01, std:2.057e-01
+Acq(new sampled X): 3.547e-01
+Y(new sampled X): 4.559e-01, simulation time: 9.775e-06
+Current best design:  [-0.21339029  0.01703683 -0.07866466 -0.23654237 -0.00307413  0.25858536
+  0.16705103  0.29451015 -0.28996056 -0.0555478 ]
+Current best function value: 3.766e-01
+----------
+Number of function evaluations: 59
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.271e-01, std:2.224e-01
+Acq(new sampled X): 3.604e-01
+Y(new sampled X): 2.423e-01, simulation time: 1.001e-05
+Current best design:  [-0.2059762   0.03302993 -0.07959551 -0.14163157 -0.00363465  0.20335035
+  0.15335862  0.24738189 -0.20278168 -0.07199395]
+Current best function value: 2.423e-01
+----------
+Number of function evaluations: 60
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 2.938e-01, std:2.703e-01
+Acq(new sampled X): 2.127e-01
+Y(new sampled X): 1.318e-01, simulation time: 4.888e-05
+Current best design:  [-0.18194871  0.09066203 -0.01295496 -0.04653667 -0.00422359  0.13200819
+  0.11243006  0.19040004 -0.13416443 -0.06173978]
+Current best function value: 1.318e-01
+----------
+Number of function evaluations: 61
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.725e-01, std:1.880e-01
+Acq(new sampled X): 1.161e-01
+Y(new sampled X): 1.130e-01, simulation time: 1.001e-05
+Current best design:  [-0.17717532  0.14614859  0.04840589 -0.02359683  0.01192837  0.10167786
+  0.08084626  0.16057153 -0.11468231 -0.03698706]
+Current best function value: 1.130e-01
+----------
+Number of function evaluations: 62
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.408e-01, std:1.371e-01
+Acq(new sampled X): 9.966e-02
+Y(new sampled X): 1.214e-01, simulation time: 8.821e-06
+Current best design:  [-0.17717532  0.14614859  0.04840589 -0.02359683  0.01192837  0.10167786
+  0.08084626  0.16057153 -0.11468231 -0.03698706]
+Current best function value: 1.130e-01
+----------
+Number of function evaluations: 63
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.330e-01, std:1.065e-01
+Acq(new sampled X): 1.010e-01
+Y(new sampled X): 1.189e-01, simulation time: 5.317e-05
+Current best design:  [-0.17717532  0.14614859  0.04840589 -0.02359683  0.01192837  0.10167786
+  0.08084626  0.16057153 -0.11468231 -0.03698706]
+Current best function value: 1.130e-01
+----------
+Number of function evaluations: 64
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.324e-01, std:1.065e-01
+Acq(new sampled X): 1.005e-01
+Y(new sampled X): 1.242e-01, simulation time: 1.001e-05
+Current best design:  [-0.17717532  0.14614859  0.04840589 -0.02359683  0.01192837  0.10167786
+  0.08084626  0.16057153 -0.11468231 -0.03698706]
+Current best function value: 1.130e-01
+----------
+Number of function evaluations: 65
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.303e-01, std:9.654e-02
+Acq(new sampled X): 1.013e-01
+Y(new sampled X): 1.005e-01, simulation time: 1.097e-05
+Current best design:  [-0.16608144  0.10777471  0.07352089  0.00938938 -0.00223084  0.09816594
+  0.08961324  0.16137816 -0.09808357 -0.04975835]
+Current best function value: 1.005e-01
+----------
+Number of function evaluations: 66
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.246e-01, std:9.120e-02
+Acq(new sampled X): 9.728e-02
+Y(new sampled X): 9.457e-02, simulation time: 1.097e-05
+Current best design:  [-0.15871491  0.09446144  0.0634896   0.02603443  0.00525358  0.08156348
+  0.08198635  0.16246877 -0.11047136 -0.06122019]
+Current best function value: 9.457e-02
+----------
+Number of function evaluations: 67
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.213e-01, std:9.490e-02
+Acq(new sampled X): 9.284e-02
+Y(new sampled X): 1.030e-01, simulation time: 9.298e-06
+Current best design:  [-0.15871491  0.09446144  0.0634896   0.02603443  0.00525358  0.08156348
+  0.08198635  0.16246877 -0.11047136 -0.06122019]
+Current best function value: 9.457e-02
+----------
+Number of function evaluations: 68
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.187e-01, std:8.994e-02
+Acq(new sampled X): 9.175e-02
+Y(new sampled X): 1.175e-01, simulation time: 1.001e-05
+Current best design:  [-0.15871491  0.09446144  0.0634896   0.02603443  0.00525358  0.08156348
+  0.08198635  0.16246877 -0.11047136 -0.06122019]
+Current best function value: 9.457e-02
+----------
+Number of function evaluations: 69
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.184e-01, std:8.761e-02
+Acq(new sampled X): 9.213e-02
+Y(new sampled X): 7.406e-02, simulation time: 1.884e-05
+Current best design:  [-0.14534438  0.07135934  0.06343485  0.00678746  0.00484431  0.09072295
+  0.06693464  0.14825467 -0.08268732 -0.04713444]
+Current best function value: 7.406e-02
+----------
+Number of function evaluations: 70
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.121e-01, std:9.323e-02
+Acq(new sampled X): 8.417e-02
+Y(new sampled X): 6.495e-02, simulation time: 1.001e-05
+Current best design:  [-0.13844709  0.05159088  0.06402761  0.00297789  0.00573779  0.09158251
+  0.05713419  0.143259   -0.0703325  -0.04314215]
+Current best function value: 6.495e-02
+----------
+Number of function evaluations: 71
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 1.037e-01, std:9.549e-02
+Acq(new sampled X): 7.502e-02
+Y(new sampled X): 5.716e-02, simulation time: 1.001e-05
+Current best design:  [-0.13144922  0.03412443  0.06315423 -0.00174792  0.00879273  0.09060943
+  0.04577104  0.13857723 -0.06051975 -0.03840544]
+Current best function value: 5.716e-02
+----------
+Number of function evaluations: 72
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 9.439e-02, std:9.460e-02
+Acq(new sampled X): 6.601e-02
+Y(new sampled X): 5.084e-02, simulation time: 9.060e-06
+Current best design:  [-0.12340562  0.02251419  0.06041225 -0.00891281  0.01757085  0.08662887
+  0.03340834  0.13516299 -0.05684149 -0.03073123]
+Current best function value: 5.084e-02
+----------
+Number of function evaluations: 73
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 8.622e-02, std:9.430e-02
+Acq(new sampled X): 5.793e-02
+Y(new sampled X): 4.734e-02, simulation time: 8.821e-06
+Current best design:  [-0.11245164  0.02180261  0.05745646 -0.02112189  0.03689472  0.07865244
+  0.02108257  0.13451618 -0.0640926  -0.01655698]
+Current best function value: 4.734e-02
+----------
+Number of function evaluations: 74
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 7.990e-02, std:9.603e-02
+Acq(new sampled X): 5.110e-02
+Y(new sampled X): 4.894e-02, simulation time: 1.001e-05
+Current best design:  [-0.11245164  0.02180261  0.05745646 -0.02112189  0.03689472  0.07865244
+  0.02108257  0.13451618 -0.0640926  -0.01655698]
+Current best function value: 4.734e-02
+----------
+Number of function evaluations: 75
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 7.462e-02, std:9.354e-02
+Acq(new sampled X): 4.656e-02
+Y(new sampled X): 5.246e-02, simulation time: 9.775e-06
+Current best design:  [-0.11245164  0.02180261  0.05745646 -0.02112189  0.03689472  0.07865244
+  0.02108257  0.13451618 -0.0640926  -0.01655698]
+Current best function value: 4.734e-02
+----------
+Number of function evaluations: 76
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 7.040e-02, std:8.611e-02
+Acq(new sampled X): 4.456e-02
+Y(new sampled X): 5.458e-02, simulation time: 3.505e-05
+Current best design:  [-0.11245164  0.02180261  0.05745646 -0.02112189  0.03689472  0.07865244
+  0.02108257  0.13451618 -0.0640926  -0.01655698]
+Current best function value: 4.734e-02
+----------
+Number of function evaluations: 77
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.753e-02, std:7.864e-02
+Acq(new sampled X): 4.394e-02
+Y(new sampled X): 4.395e-02, simulation time: 9.298e-06
+Current best design:  [-0.09624081  0.03906918  0.02756225 -0.03718088  0.06182541  0.05295341
+ -0.01635062  0.12731818 -0.08863705 -0.00779938]
+Current best function value: 4.395e-02
+----------
+Number of function evaluations: 78
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.482e-02, std:7.766e-02
+Acq(new sampled X): 4.152e-02
+Y(new sampled X): 4.232e-02, simulation time: 2.193e-05
+Current best design:  [-0.09752665  0.03932862  0.0171374  -0.03513475  0.05599473  0.04797087
+ -0.02636138  0.12412743 -0.08916437 -0.01577895]
+Current best function value: 4.232e-02
+----------
+Number of function evaluations: 79
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.208e-02, std:7.571e-02
+Acq(new sampled X): 3.937e-02
+Y(new sampled X): 4.129e-02, simulation time: 1.216e-05
+Current best design:  [-0.09849895  0.03869017  0.00954553 -0.03240068  0.05039629  0.04391354
+ -0.03345908  0.12209253 -0.08900342 -0.02309532]
+Current best function value: 4.129e-02
+----------
+Number of function evaluations: 80
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.036e-02, std:7.619e-02
+Acq(new sampled X): 3.750e-02
+Y(new sampled X): 5.551e-02, simulation time: 8.821e-06
+Current best design:  [-0.09849895  0.03869017  0.00954553 -0.03240068  0.05039629  0.04391354
+ -0.03345908  0.12209253 -0.08900342 -0.02309532]
+Current best function value: 4.129e-02
+----------
+Number of function evaluations: 81
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 6.027e-02, std:7.537e-02
+Acq(new sampled X): 3.766e-02
+Y(new sampled X): 3.513e-02, simulation time: 1.001e-05
+Current best design:  [-0.10220979  0.01538501  0.00112014 -0.01113263  0.02864366  0.04536022
+ -0.02831682  0.11818962 -0.06887717 -0.04388199]
+Current best function value: 3.513e-02
+----------
+Number of function evaluations: 82
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 5.744e-02, std:7.465e-02
+Acq(new sampled X): 3.504e-02
+Y(new sampled X): 3.472e-02, simulation time: 1.097e-05
+Current best design:  [-0.10321106  0.01043291 -0.00411277 -0.00533614  0.02206601  0.04274632
+ -0.03134452  0.1166766  -0.06612898 -0.05132243]
+Current best function value: 3.472e-02
+----------
+Number of function evaluations: 83
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 5.464e-02, std:7.235e-02
+Acq(new sampled X): 3.294e-02
+Y(new sampled X): 3.454e-02, simulation time: 1.097e-05
+Current best design:  [-0.10315419  0.00606818 -0.0087042   0.00041806  0.01788616  0.04023824
+ -0.03239323  0.11587821 -0.06403571 -0.05721976]
+Current best function value: 3.454e-02
+----------
+Number of function evaluations: 84
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 5.206e-02, std:6.904e-02
+Acq(new sampled X): 3.135e-02
+Y(new sampled X): 3.391e-02, simulation time: 1.001e-05
+Current best design:  [-0.10135679  0.00163226 -0.01283635  0.00669828  0.01552013  0.03872082
+ -0.03036199  0.11500181 -0.06144449 -0.0612917 ]
+Current best function value: 3.391e-02
+----------
+Number of function evaluations: 85
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.989e-02, std:6.598e-02
+Acq(new sampled X): 3.010e-02
+Y(new sampled X): 3.158e-02, simulation time: 9.060e-06
+Current best design:  [-0.09242102 -0.00343092 -0.02176632  0.01584936  0.01985966  0.03835302
+ -0.01896224  0.11321341 -0.05783505 -0.0626035 ]
+Current best function value: 3.158e-02
+----------
+Number of function evaluations: 86
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.844e-02, std:6.551e-02
+Acq(new sampled X): 2.879e-02
+Y(new sampled X): 2.833e-02, simulation time: 1.001e-05
+Current best design:  [-0.07571034 -0.00277096 -0.03515597  0.02310989  0.0324992   0.03919472
+ -0.00124727  0.10888295 -0.05565207 -0.05718461]
+Current best function value: 2.833e-02
+----------
+Number of function evaluations: 87
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.677e-02, std:6.526e-02
+Acq(new sampled X): 2.720e-02
+Y(new sampled X): 2.749e-02, simulation time: 9.060e-06
+Current best design:  [-0.06586908 -0.00223362 -0.04220702  0.02808614  0.03962284  0.03846837
+  0.00843782  0.10662186 -0.05553756 -0.05475759]
+Current best function value: 2.749e-02
+----------
+Number of function evaluations: 88
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.512e-02, std:6.465e-02
+Acq(new sampled X): 2.573e-02
+Y(new sampled X): 2.701e-02, simulation time: 9.060e-06
+Current best design:  [-0.05760628 -0.00041838 -0.04796798  0.03113408  0.04571144  0.0379531
+  0.0157861   0.10410866 -0.05585685 -0.05175808]
+Current best function value: 2.701e-02
+----------
+Number of function evaluations: 89
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.353e-02, std:6.362e-02
+Acq(new sampled X): 2.445e-02
+Y(new sampled X): 2.696e-02, simulation time: 1.097e-05
+Current best design:  [-0.0499924   0.00291428 -0.0525879   0.0326745   0.05218168  0.03696422
+  0.0214255   0.10220026 -0.05752026 -0.04812553]
+Current best function value: 2.696e-02
+----------
+Number of function evaluations: 90
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.202e-02, std:6.203e-02
+Acq(new sampled X): 2.341e-02
+Y(new sampled X): 2.744e-02, simulation time: 1.001e-05
+Current best design:  [-0.0499924   0.00291428 -0.0525879   0.0326745   0.05218168  0.03696422
+  0.0214255   0.10220026 -0.05752026 -0.04812553]
+Current best function value: 2.696e-02
+----------
+Number of function evaluations: 91
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 4.069e-02, std:6.014e-02
+Acq(new sampled X): 2.265e-02
+Y(new sampled X): 2.739e-02, simulation time: 1.097e-05
+Current best design:  [-0.0499924   0.00291428 -0.0525879   0.0326745   0.05218168  0.03696422
+  0.0214255   0.10220026 -0.05752026 -0.04812553]
+Current best function value: 2.696e-02
+----------
+Number of function evaluations: 92
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.946e-02, std:5.798e-02
+Acq(new sampled X): 2.206e-02
+Y(new sampled X): 2.855e-02, simulation time: 1.311e-05
+Current best design:  [-0.0499924   0.00291428 -0.0525879   0.0326745   0.05218168  0.03696422
+  0.0214255   0.10220026 -0.05752026 -0.04812553]
+Current best function value: 2.696e-02
+----------
+Number of function evaluations: 93
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.911e-02, std:5.809e-02
+Acq(new sampled X): 2.168e-02
+Y(new sampled X): 3.813e-02, simulation time: 9.060e-06
+Current best design:  [-0.0499924   0.00291428 -0.0525879   0.0326745   0.05218168  0.03696422
+  0.0214255   0.10220026 -0.05752026 -0.04812553]
+Current best function value: 2.696e-02
+----------
+Number of function evaluations: 94
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.928e-02, std:5.804e-02
+Acq(new sampled X): 2.187e-02
+Y(new sampled X): 2.408e-02, simulation time: 9.060e-06
+Current best design:  [-0.03669776  0.03878906 -0.06552306  0.00889372  0.06072615  0.04654615
+  0.01005681  0.08471769 -0.05512664 -0.02610495]
+Current best function value: 2.408e-02
+----------
+Number of function evaluations: 95
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.830e-02, std:5.749e-02
+Acq(new sampled X): 2.105e-02
+Y(new sampled X): 2.714e-02, simulation time: 8.321e-05
+Current best design:  [-0.03669776  0.03878906 -0.06552306  0.00889372  0.06072615  0.04654615
+  0.01005681  0.08471769 -0.05512664 -0.02610495]
+Current best function value: 2.408e-02
+----------
+Number of function evaluations: 96
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.703e-02, std:5.439e-02
+Acq(new sampled X): 2.071e-02
+Y(new sampled X): 1.936e-02, simulation time: 2.098e-05
+Current best design:  [-0.0373936   0.01117001 -0.05507951  0.02338497  0.04413644  0.05720601
+  0.02653684  0.07989404 -0.02690768 -0.03500536]
+Current best function value: 1.936e-02
+----------
+Number of function evaluations: 97
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.583e-02, std:5.391e-02
+Acq(new sampled X): 1.965e-02
+Y(new sampled X): 1.884e-02, simulation time: 8.821e-06
+Current best design:  [-0.03578404  0.00841071 -0.05414778  0.0249882   0.04302273  0.05953553
+  0.02981428  0.07738623 -0.02172985 -0.03439911]
+Current best function value: 1.884e-02
+----------
+Number of function evaluations: 98
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.462e-02, std:5.313e-02
+Acq(new sampled X): 1.868e-02
+Y(new sampled X): 1.877e-02, simulation time: 1.001e-05
+Current best design:  [-0.0313872   0.0072299  -0.05378975  0.02689734  0.04522626  0.05964027
+  0.03560461  0.07592134 -0.02013797 -0.03283276]
+Current best function value: 1.877e-02
+----------
+Number of function evaluations: 99
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.397e-02, std:5.386e-02
+Acq(new sampled X): 1.781e-02
+Y(new sampled X): 2.311e-02, simulation time: 1.001e-05
+Current best design:  [-0.0313872   0.0072299  -0.05378975  0.02689734  0.04522626  0.05964027
+  0.03560461  0.07592134 -0.02013797 -0.03283276]
+Current best function value: 1.877e-02
+----------
+Number of function evaluations: 100
+Optimize acq message:  Optimization terminated successfully.
+Model predict(new sampled X)... mean: 3.306e-02, std:5.202e-02
+Acq(new sampled X): 1.745e-02
+Y(new sampled X): 1.829e-02, simulation time: 9.775e-06
+Current best design:  [-0.03579824 -0.00416511 -0.04877164  0.0328769   0.03400257  0.06344786
+  0.03572626  0.07403721 -0.00794005 -0.03903878]
+Current best function value: 1.829e-02
+----------------------------------------------------------------------
+[-0.03579824 -0.00416511 -0.04877164  0.0328769   0.03400257  0.06344786
+  0.03572626  0.07403721 -0.00794005 -0.03903878]
+0.01828517554153317

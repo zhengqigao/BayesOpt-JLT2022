@@ -1,0 +1,3 @@
+Run the command: `python simplebo.py` to reproduce the log file shown in log.txt. It is possible that you obtain slightly different result due to the version of Python packages and the pseudo random seeds. 
+
+Moreover, it is possible to see warnings when you run the code like `ABNORMAL_TERMINATION_IN_LNSRCH`. Please consider adjusting the kernel and the data normalization method. However, personally, I find that even with this warning, the overall Bayesian optimization still yields sufficiently good performance.

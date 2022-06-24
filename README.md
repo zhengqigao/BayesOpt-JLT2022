@@ -4,7 +4,7 @@ This repo contains code for our paper titled 'Automatic Synthesis of Broadband S
 
 If you are looking for a bare-bone implementation of Bayesian optimization. Please see the folder SimpleBO. If you are interested in reproducing results of our paper, please see the folder Directional-Coupler, Y-Splitter, and Ring-Resonator.
 
-For now, only SimpleBO is not empty. The other folders will be updated as soon as our JLT paper is accepted. If you find our code to be useful, please cite out conference paper at this time.
+For now, only SimpleBO is not empty. The other folders will be updated as soon as our JLT paper is accepted. If you find our code to be useful, please cite our conference paper at this time.
 
 ```
 @inproceedings{gao2022bayesopt,
@@ -16,4 +16,4 @@ For now, only SimpleBO is not empty. The other folders will be updated as soon a
 }
 ```
 
-If you have any problems, please feel free to contact me zhengqi@mit.edu.
+If you have any problems, please feel free to contact me zhengqi@mit.edu. See my homepage for more details about me: https://zhengqigao.github.io/.

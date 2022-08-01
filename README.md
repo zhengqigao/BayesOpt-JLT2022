@@ -15,9 +15,8 @@ pages = {JW3B.156},
 publisher = {Optica Publishing Group},
 title = {Automatic Design of a Broadband Directional Coupler via Bayesian Optimization},
 year = {2022},
-url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156},}
-
-
+url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156}
+}
 ```
 
 If you have any problems, please feel free to contact me zhengqi@mit.edu. See my homepage for more details about me: https://zhengqigao.github.io/.

@@ -21,6 +21,6 @@ url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156}
 
 Our Bayesian optimization code has been extensively used by researchers at 
 
-![MIT](https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif =100x100) ![UCSB](https://brand.ucsb.edu/sites/default/files/images/pages/Visual-Identity/Marks/Seal/navy-seal.gif =100x100)
+![MIT](https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif){:height="100px" width="100px"} ![UCSB](https://brand.ucsb.edu/sites/default/files/images/pages/Visual-Identity/Marks/Seal/navy-seal.gif){:height="100px" width="100px"}
 
 If you have any problems, please feel free to contact me zhengqi@mit.edu. See my homepage for more details about me: https://zhengqigao.github.io/.

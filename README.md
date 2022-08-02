@@ -19,10 +19,12 @@ url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156}
 }
 ```
 
-Our Bayesian optimization code has been extensively used by researchers at 
+Our Bayesian optimization code has been extensively used by researchers at:
 
 
-<img src="https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif" width = "100" height = "100"/> <img src="https://brand.ucsb.edu/sites/default/files/images/pages/Visual-Identity/Marks/Seal/navy-seal.gif" width = "150" height = "100"/> 
+<img src="https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif" width = "100" height = "100"/> <img src="https://brand.ucsb.edu/sites/default/files/images/pages/Visual-Identity/Marks/Seal/navy-seal.gif" width = "150" height = "100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Notre_Dame_seal_%282%29.svg" width = "150" height = "100"/> 
+
+
 
 
 If you have any problems, please feel free to contact me zhengqi@mit.edu. See my homepage for more details about me: https://zhengqigao.github.io/.

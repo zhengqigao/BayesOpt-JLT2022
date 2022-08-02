@@ -19,9 +19,9 @@ url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156}
 }
 ```
 
-Our Bayesian optimization code has been extensively used by researchers at:
+Our Bayesian optimization code has been extensively used by researchers at many top universities, such as MIT, Columbia University, University of Notre Dame, UCB. Please ping me if you achieve your goal with the help of our code: I would like to hear your successful story!
 
-<img src="https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif" width = "100" height = "100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Notre_Dame_seal_%282%29.svg" width = "100" height = "100"/> <img src="http://www.columbiamedicinemagazine.org/sites/default/files/images/fall2017-psNews-columbiaSeal568.jpg" width = "100" height = "100"/> <img src="http://web.physics.ucsb.edu/~hepjc/ucsbseal.png" width = "100" height = "100"/>
+<img src="https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif" width = "100" height = "100"/> <img src="http://www.columbiamedicinemagazine.org/sites/default/files/images/fall2017-psNews-columbiaSeal568.jpg" width = "100" height = "100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Notre_Dame_seal_%282%29.svg" width = "100" height = "100"/> <img src="http://web.physics.ucsb.edu/~hepjc/ucsbseal.png" width = "100" height = "100"/>
 
 
 

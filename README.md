@@ -21,8 +21,7 @@ url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156}
 
 Our Bayesian optimization code has been extensively used by researchers at:
 
-
-<img src="https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif" width = "100" height = "100"/> <img src="https://brand.ucsb.edu/sites/default/files/images/pages/Visual-Identity/Marks/Seal/navy-seal.gif" width = "150" height = "100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Notre_Dame_seal_%282%29.svg" width = "150" height = "100"/> 
+<img src="https://libraries.mit.edu/mithistory/wp-content/files/mit-seal_400x400-300x300.gif" width = "100" height = "100"/> <img src="https://brand.ucsb.edu/sites/default/files/images/pages/Visual-Identity/Marks/Seal/navy-seal.gif" width = "100" height = "100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Notre_Dame_seal_%282%29.svg" width = "100" height = "100"/> <img src="http://www.columbiamedicinemagazine.org/sites/default/files/images/fall2017-psNews-columbiaSeal568.jpg" width = "100" height = "100"/> 
 
 
 

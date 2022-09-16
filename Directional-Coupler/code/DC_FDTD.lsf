@@ -1,0 +1,71 @@
+# Perform 3D FDTD simulations for the directional coupler
+clear;
+DC_GDS_import;
+
+DC_length = 6e-6;
+
+setglobalsource("wavelength start",1500e-9);  
+setglobalsource("wavelength stop",1600e-9);
+setglobalmonitor("use source limits",1); 
+setglobalmonitor("frequency points",100);
+
+# add mode source:
+addmode; set("name", "source");
+set("injection axis", "x-axis"); 
+set("direction", "forward");
+set("y", 1e-6); set("y span", 1.5e-6); 
+set("x", minvxWAFER + DC_length/2);
+set("z min", -FDTD_below); set("z max", maxvzWAFER+FDTD_above);
+updatesourcemode;
+
+addpower;
+set("name", "through"); 
+set("monitor type", "2D X-normal"); 
+set("y", 1e-6); set("y span", 1.4e-6); 
+set("x", maxvxWAFER - DC_length/2);
+set("z min", -FDTD_below); set("z max", maxvzWAFER+FDTD_above);
+
+addpower;
+set("name", "cross"); 
+set("monitor type", "2D X-normal"); 
+set("y", -1e-6); set("y span", 1.4e-6); 
+set("x", maxvxWAFER - DC_length/2);
+set("z min", -FDTD_below); set("z max", maxvzWAFER+FDTD_above);
+
+addpower;
+set("name", "surface");
+set("monitor type", "2D Z-normal"); 
+set("y min",-1.5e-6); set("y max",1.5e-6);
+set("x min",-8e-6); set("x max",8e-6);
+
+save("DC_FDTD.fsp");
+
+# run;
+
+addjob(currentfilename);
+runjobs;
+load("DC_FDTD.fsp");
+
+
+p_through = transmission("through");
+p_cross = transmission("cross");
+
+f = getdata("through","f");
+wave_length = c/f*1e6;
+
+plot(wave_length, p_through);
+holdon;
+plot(wave_length, p_cross);
+legend("through","cross");
+
+output = [wave_length,p_through, p_cross];
+write("sim_res.txt",num2str(output),"overwrite");
+
+ #x=pinch(getdata('surface','x'));
+ #y=pinch(getdata('surface','y'));
+ #wrkex = abs(getdata('surface','Ex'));
+ #wrkey = abs(getdata('surface','Ey'));
+ #wrkez = abs(getdata('surface','Ez'));
+ #z=pinch(wrkex * wrkex + wrkey* wrkey + wrkez * wrkez);
+ #z=pinch(z,3,50);
+ #image(x,y,z);

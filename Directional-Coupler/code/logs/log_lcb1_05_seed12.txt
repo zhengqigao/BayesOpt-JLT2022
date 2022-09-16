@@ -1,0 +1,1168 @@
+----------Begin Bayes Opt----------
+ initial metrics: 0.157929
+refer x value:  [-2.7000e-07 -6.3250e-07 -9.9500e-07 -1.3575e-06 -1.7200e-06 -1.7200e-06
+ -1.3575e-06 -9.9500e-07 -6.3250e-07 -2.7000e-07]
+Begin initializing...
+Simulate the 0-th sample... with metric: 0.154992
+Simulate the 1-th sample... with metric: 0.141989
+Simulate the 2-th sample... with metric: 0.081424
+Simulate the 3-th sample... with metric: 0.028817
+Simulate the 4-th sample... with metric: 0.177707
+Simulate the 5-th sample... with metric: 0.070984
+Simulate the 6-th sample... with metric: 0.122650
+Simulate the 7-th sample... with metric: 0.092263
+Simulate the 8-th sample... with metric: 0.184295
+Simulate the 9-th sample... with metric: 0.160950
+Simulate the 10-th sample... with metric: 0.102668
+Simulate the 11-th sample... with metric: 0.103405
+Simulate the 12-th sample... with metric: 0.045481
+Simulate the 13-th sample... with metric: 0.043683
+Simulate the 14-th sample... with metric: 0.056248
+Simulate the 15-th sample... with metric: 0.051416
+Simulate the 16-th sample... with metric: 0.103802
+Simulate the 17-th sample... with metric: 0.042380
+Simulate the 18-th sample... with metric: 0.140589
+Simulate the 19-th sample... with metric: 0.055559
+Simulate the 20-th sample... with metric: 0.074231
+Simulate the 21-th sample... with metric: 0.093669
+Simulate the 22-th sample... with metric: 0.057614
+Simulate the 23-th sample... with metric: 0.102151
+Simulate the 24-th sample... with metric: 0.050533
+Simulate the 25-th sample... with metric: 0.108779
+Simulate the 26-th sample... with metric: 0.042550
+Simulate the 27-th sample... with metric: 0.031013
+Simulate the 28-th sample... with metric: 0.043459
+Simulate the 29-th sample... with metric: 0.155028
+Simulate the 30-th sample... with metric: 0.159751
+Simulate the 31-th sample... with metric: 0.096451
+Simulate the 32-th sample... with metric: 0.094437
+Simulate the 33-th sample... with metric: 0.115645
+Simulate the 34-th sample... with metric: 0.062257
+Simulate the 35-th sample... with metric: 0.059969
+Simulate the 36-th sample... with metric: 0.091890
+Simulate the 37-th sample... with metric: 0.061254
+Simulate the 38-th sample... with metric: 0.078070
+Simulate the 39-th sample... with metric: 0.138136
+Finish initialization with best metric: 0.028817
+----------
+Number of function evaluations: 41
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.47990935e-08  3.82025975e-09  3.04978191e-08  2.56481348e-08
+ -2.31625819e-08  4.37879884e-08  9.72853768e-08  2.56544460e-07
+ -2.30143649e-07 -1.91597047e-07 -2.74201337e-08]
+Model predict(new sampled X)... mean: 0.003256, std:0.023154
+Acq(new sampled X): -0.003690
+Y(new sampled X): 0.028316, simulation time: 90.748068
+Current best design:  [1.08729356e-07 8.03980487e-08 8.52677481e-08 9.92130432e-08
+ 8.16985407e-08 6.29550522e-07 5.65180140e-07 5.20570189e-07
+ 6.64724400e-07 5.88527619e-07 1.10000000e-07]
+Current best function value: 0.028316
+Gpr model mean:8.376e-02, max: 1.843e-01, min: 3.256e-03
+----------
+Number of function evaluations: 42
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.46580219e-08  3.69650876e-09  2.54152261e-08  9.14675725e-09
+  3.80601194e-08  5.68612885e-08  9.07719331e-08 -1.09947892e-07
+ -2.32049793e-07 -1.79143744e-07  1.50398269e-08]
+Model predict(new sampled X)... mean: 0.025272, std:0.025824
+Acq(new sampled X): 0.017525
+Y(new sampled X): 0.024849, simulation time: 92.627244
+Current best design:  [1.37624592e-07 7.70081918e-08 1.07469294e-07 7.01912792e-08
+ 6.95841953e-08 5.58021050e-07 3.89742584e-07 4.33893890e-07
+ 5.88606341e-07 6.29122526e-07 8.78315697e-08]
+Current best function value: 0.024849
+Gpr model mean:8.550e-02, max: 1.843e-01, min: 2.527e-02
+----------
+Number of function evaluations: 43
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.62007082e-09  1.94500001e-08  4.98260712e-09 -5.43193189e-08
+  1.70974255e-08  3.50544410e-08 -7.94965558e-08  4.60565668e-08
+ -6.74062164e-08 -5.48453162e-08 -1.06076516e-07]
+Model predict(new sampled X)... mean: 0.020316, std:0.022147
+Acq(new sampled X): 0.013672
+Y(new sampled X): 0.015527, simulation time: 93.182301
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.523e-02, max: 1.843e-01, min: 2.032e-02
+----------
+Number of function evaluations: 44
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 3.18514564e-09 -3.60785807e-08  3.45532602e-08 -2.51324212e-09
+  3.00352974e-08 -3.97776544e-08 -2.88271123e-07 -3.33971133e-07
+ -4.68654658e-08 -5.27397424e-08 -9.55538959e-08]
+Model predict(new sampled X)... mean: 0.017515, std:0.017281
+Acq(new sampled X): 0.012331
+Y(new sampled X): 0.020573, simulation time: 94.895401
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.368e-02, max: 1.843e-01, min: 1.553e-02
+----------
+Number of function evaluations: 45
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-5.58013061e-08 -1.74507252e-08 -5.67216621e-08  8.70707600e-09
+  2.22687795e-08 -2.19838266e-07 -2.47376692e-07  1.74201443e-07
+ -2.66499755e-07 -2.85883086e-07 -3.10323809e-08]
+Model predict(new sampled X)... mean: 0.016143, std:0.012153
+Acq(new sampled X): 0.012497
+Y(new sampled X): 0.016324, simulation time: 82.759848
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.420e-02, max: 1.843e-01, min: 1.553e-02
+----------
+Number of function evaluations: 46
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-7.36657479e-08  1.03759955e-09  3.50756112e-09 -5.39244552e-08
+ -5.10128066e-08 -7.23711916e-08 -9.71742930e-08 -1.45456406e-08
+ -4.16846900e-08 -3.79909221e-07 -3.82081767e-08]
+Model predict(new sampled X)... mean: 0.015767, std:0.011395
+Acq(new sampled X): 0.012348
+Y(new sampled X): 0.017304, simulation time: 90.923221
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.347e-02, max: 1.843e-01, min: 1.553e-02
+----------
+Number of function evaluations: 47
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-7.31405477e-08  4.44434377e-08 -5.68569641e-08  1.14697833e-08
+  4.00125021e-08  2.45974909e-07  2.00921047e-07 -2.06560062e-07
+ -1.98813034e-07  9.10373407e-08 -1.80028783e-08]
+Model predict(new sampled X)... mean: 0.015893, std:0.011032
+Acq(new sampled X): 0.012583
+Y(new sampled X): 0.018728, simulation time: 95.069020
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.358e-02, max: 1.843e-01, min: 1.553e-02
+----------
+Number of function evaluations: 48
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.00116285e-08 -6.51973581e-08  2.42847548e-09 -3.75027815e-08
+ -3.85332278e-09  1.84152040e-07  6.81235294e-08 -6.43557450e-08
+ -4.78572917e-07  1.87919088e-07 -4.45134291e-09]
+Model predict(new sampled X)... mean: 0.015607, std:0.010010
+Acq(new sampled X): 0.012603
+Y(new sampled X): 0.020630, simulation time: 91.041989
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.467e-02, max: 1.843e-01, min: 1.553e-02
+----------
+Number of function evaluations: 49
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.47653752e-08  3.11580468e-08 -5.80285956e-08  7.53165215e-09
+ -3.76946366e-08 -3.05475178e-07  1.29035766e-07 -1.95646921e-07
+ -3.04827975e-07 -2.28046389e-07 -7.15688121e-08]
+Model predict(new sampled X)... mean: 0.014932, std:0.013106
+Acq(new sampled X): 0.011000
+Y(new sampled X): 0.015804, simulation time: 94.682266
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.309e-02, max: 1.843e-01, min: 1.493e-02
+----------
+Number of function evaluations: 50
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 2.40243681e-08  1.03456261e-08  3.38871761e-09 -8.37274979e-08
+  8.65509650e-08  1.65195692e-07  2.63539813e-07  2.31426537e-08
+  2.93970508e-08  6.15766602e-08  1.33832661e-09]
+Model predict(new sampled X)... mean: 0.020267, std:0.027081
+Acq(new sampled X): 0.012143
+Y(new sampled X): 0.043332, simulation time: 95.300319
+Current best design:  [1.36837163e-07 1.01639896e-07 1.18304741e-07 1.25014939e-07
+ 9.84745854e-08 6.54488795e-07 6.26762919e-07 6.52621157e-07
+ 8.20860895e-07 6.68377831e-07 1.10000000e-07]
+Current best function value: 0.015527
+Gpr model mean:8.362e-02, max: 1.843e-01, min: 1.553e-02
+----------
+Number of function evaluations: 51
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.27770618e-08  9.62613930e-10  8.13191836e-09 -6.22561639e-08
+ -2.35341205e-08 -1.91735480e-07 -1.83056785e-07  6.73653116e-08
+  7.19370557e-09 -2.44119169e-07 -4.25672690e-08]
+Model predict(new sampled X)... mean: 0.014836, std:0.007107
+Acq(new sampled X): 0.012704
+Y(new sampled X): 0.013143, simulation time: 95.170657
+Current best design:  [1.46890357e-07 9.55677360e-08 1.25769037e-07 1.21675818e-07
+ 1.11291008e-07 6.63567192e-07 6.28270347e-07 6.91886333e-07
+ 7.89844656e-07 7.03654761e-07 1.10000000e-07]
+Current best function value: 0.013143
+Gpr model mean:8.305e-02, max: 1.843e-01, min: 1.484e-02
+----------
+Number of function evaluations: 52
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 4.02930591e-10  4.06217997e-08 -3.60059487e-09 -6.10277192e-08
+ -8.73728981e-09  7.73876164e-08 -2.19591323e-07  4.58653793e-08
+ -7.07666847e-08  1.50000081e-07 -5.11755920e-08]
+Model predict(new sampled X)... mean: 0.014036, std:0.005546
+Acq(new sampled X): 0.012372
+Y(new sampled X): 0.013257, simulation time: 90.957856
+Current best design:  [1.46890357e-07 9.55677360e-08 1.25769037e-07 1.21675818e-07
+ 1.11291008e-07 6.63567192e-07 6.28270347e-07 6.91886333e-07
+ 7.89844656e-07 7.03654761e-07 1.10000000e-07]
+Current best function value: 0.013143
+Gpr model mean:8.205e-02, max: 1.843e-01, min: 1.314e-02
+----------
+Number of function evaluations: 53
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.45077482e-08  1.82934752e-08 -2.98964641e-08 -2.55608663e-08
+ -3.10333958e-08 -2.62628360e-07 -2.01071475e-07  1.31462987e-07
+ -2.88467602e-07  5.13168084e-08 -1.66756303e-08]
+Model predict(new sampled X)... mean: 0.013588, std:0.004017
+Acq(new sampled X): 0.012382
+Y(new sampled X): 0.011895, simulation time: 94.781120
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.170e-02, max: 1.843e-01, min: 1.314e-02
+----------
+Number of function evaluations: 54
+Optimize acq message:  Maximum number of function evaluations has been exceeded.
+Optimize initial X - new sampled X:  [-2.84149848e-08  9.13635884e-09  1.81064729e-08  6.32046919e-09
+  3.63448694e-08 -2.51968820e-07  2.77030876e-07  5.07222314e-07
+  1.02973775e-08  2.24171216e-07 -1.90646483e-08]
+Model predict(new sampled X)... mean: 0.019090, std:0.030485
+Acq(new sampled X): 0.009945
+Y(new sampled X): 0.142352, simulation time: 94.761301
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.240e-02, max: 1.971e-01, min: 1.190e-02
+----------
+Number of function evaluations: 55
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.14724518e-08  6.24518911e-08  1.66091905e-08  6.52125045e-08
+  2.22355148e-08  1.34044931e-07 -4.50719362e-08  2.70983114e-07
+ -7.38085312e-08 -1.59531340e-07  9.27434873e-09]
+Model predict(new sampled X)... mean: 0.006481, std:0.019974
+Acq(new sampled X): 0.000488
+Y(new sampled X): 0.032249, simulation time: 93.633657
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.213e-02, max: 1.843e-01, min: 6.481e-03
+----------
+Number of function evaluations: 56
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.03064851e-08  4.73072540e-08  1.61420009e-08 -4.23642151e-08
+  2.79699293e-08 -1.49813913e-08 -2.32793068e-07  3.30143989e-08
+ -4.98903526e-07 -4.87663911e-07 -4.05989949e-08]
+Model predict(new sampled X)... mean: 0.012466, std:0.008443
+Acq(new sampled X): 0.009933
+Y(new sampled X): 0.013935, simulation time: 94.989492
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.144e-02, max: 1.843e-01, min: 1.190e-02
+----------
+Number of function evaluations: 57
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.96643941e-08  4.83840025e-08  2.31607216e-08  2.89499663e-08
+  4.97206638e-08 -8.51151917e-08  2.55383007e-07  7.67602475e-08
+  1.30118244e-07 -1.83584460e-07  1.51458575e-08]
+Model predict(new sampled X)... mean: 0.014358, std:0.018298
+Acq(new sampled X): 0.008869
+Y(new sampled X): 0.034033, simulation time: 96.639598
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.061e-02, max: 1.843e-01, min: 1.190e-02
+----------
+Number of function evaluations: 58
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.05548164e-08  6.84082475e-09 -6.59305154e-09 -3.10314606e-08
+  4.04986862e-08 -1.85807746e-07  1.27425193e-07  2.16678538e-07
+ -1.88679224e-07  7.41939167e-08 -1.08142432e-07]
+Model predict(new sampled X)... mean: 0.012995, std:0.016511
+Acq(new sampled X): 0.008042
+Y(new sampled X): 0.034363, simulation time: 94.741721
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.093e-02, max: 1.843e-01, min: 1.190e-02
+----------
+Number of function evaluations: 59
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.92359452e-08  5.44582240e-08 -1.95538345e-08 -5.81238324e-08
+ -4.19920494e-08 -3.50199203e-07  1.42589239e-07  1.27094630e-07
+ -1.26753120e-07 -3.63253125e-07 -6.48481520e-08]
+Model predict(new sampled X)... mean: 0.011479, std:0.006854
+Acq(new sampled X): 0.009422
+Y(new sampled X): 0.016690, simulation time: 90.621949
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.055e-02, max: 1.843e-01, min: 1.148e-02
+----------
+Number of function evaluations: 60
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.44591194e-08 -3.59752304e-08 -3.31441744e-08 -5.50448465e-09
+  3.66494158e-08 -3.74747385e-08 -3.26404908e-07 -6.87603495e-08
+  1.07139081e-07 -4.84798339e-07 -1.00933575e-07]
+Model predict(new sampled X)... mean: 0.011604, std:0.006292
+Acq(new sampled X): 0.009717
+Y(new sampled X): 0.012363, simulation time: 91.343845
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.088e-02, max: 1.843e-01, min: 1.160e-02
+----------
+Number of function evaluations: 61
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-5.17569487e-08 -1.73189390e-08 -2.72927944e-08 -2.26433257e-10
+  1.81795959e-08 -2.96097590e-07 -1.77114237e-07  6.56545204e-09
+ -4.21403595e-07 -1.82845015e-07 -1.81859779e-08]
+Model predict(new sampled X)... mean: 0.012062, std:0.004360
+Acq(new sampled X): 0.010754
+Y(new sampled X): 0.012953, simulation time: 94.854212
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.103e-02, max: 1.843e-01, min: 1.190e-02
+----------
+Number of function evaluations: 62
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.79239081e-08  2.16257658e-08 -1.09351094e-08 -1.11645012e-09
+ -5.66274286e-09  6.80258923e-08  2.66963664e-08 -5.63521952e-08
+ -3.37589424e-07 -3.43063743e-07 -1.44441997e-08]
+Model predict(new sampled X)... mean: 0.012264, std:0.005911
+Acq(new sampled X): 0.010491
+Y(new sampled X): 0.012290, simulation time: 93.092353
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.021e-02, max: 1.843e-01, min: 1.190e-02
+----------
+Number of function evaluations: 63
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.47845864e-09 -2.15684547e-08 -3.86870666e-08 -1.50485004e-08
+ -5.49480084e-08  1.12591191e-07  1.63232703e-07 -1.37555761e-07
+ -3.71186022e-07 -3.91039691e-07 -6.25791167e-08]
+Model predict(new sampled X)... mean: 0.011861, std:0.003523
+Acq(new sampled X): 0.010804
+Y(new sampled X): 0.012880, simulation time: 94.996138
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:7.970e-02, max: 1.843e-01, min: 1.186e-02
+----------
+Number of function evaluations: 64
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-8.80688360e-08  3.38328686e-08 -4.94842365e-08 -1.05494961e-08
+ -6.09013209e-09 -2.44578284e-07 -2.94424407e-07  1.03736178e-07
+  1.34927394e-07 -4.21683816e-07 -2.20059640e-08]
+Model predict(new sampled X)... mean: 0.011692, std:0.004424
+Acq(new sampled X): 0.010365
+Y(new sampled X): 0.012020, simulation time: 95.610068
+Current best design:  [1.40236488e-07 9.82111798e-08 1.29032119e-07 1.23326084e-07
+ 1.12725952e-07 6.68694522e-07 6.24572256e-07 6.89412900e-07
+ 7.87816044e-07 7.51277138e-07 1.10000000e-07]
+Current best function value: 0.011895
+Gpr model mean:8.087e-02, max: 1.843e-01, min: 1.169e-02
+----------
+Number of function evaluations: 65
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.75626065e-08 -1.44494329e-08  8.05637393e-09  5.68560474e-09
+  2.79026493e-08  1.22136237e-07 -1.33092207e-09  2.44857175e-07
+  4.90819597e-08 -3.40743144e-07 -2.93446704e-09]
+Model predict(new sampled X)... mean: 0.011563, std:0.002453
+Acq(new sampled X): 0.010827
+Y(new sampled X): 0.011762, simulation time: 94.897970
+Current best design:  [1.37159277e-07 1.01620308e-07 1.29665331e-07 1.30380779e-07
+ 1.15331588e-07 6.54480975e-07 6.52608862e-07 6.42613806e-07
+ 7.46456594e-07 7.46036563e-07 1.10000000e-07]
+Current best function value: 0.011762
+Gpr model mean:7.970e-02, max: 1.843e-01, min: 1.156e-02
+----------
+Number of function evaluations: 66
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.67605677e-08 -4.37681551e-09 -6.92768205e-09 -4.55781463e-08
+  3.57222386e-08 -3.24267180e-07  1.81757066e-07  7.58024825e-09
+ -1.67710831e-07  1.07990920e-07 -8.47233840e-08]
+Model predict(new sampled X)... mean: 0.011503, std:0.001818
+Acq(new sampled X): 0.010958
+Y(new sampled X): 0.011421, simulation time: 95.326167
+Current best design:  [1.45654843e-07 1.02527243e-07 1.32889056e-07 1.25012799e-07
+ 1.13894274e-07 6.36514527e-07 6.21811960e-07 6.46094186e-07
+ 7.61381240e-07 7.51683941e-07 1.10000000e-07]
+Current best function value: 0.011421
+Gpr model mean:8.146e-02, max: 1.843e-01, min: 1.150e-02
+----------
+Number of function evaluations: 67
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-5.84346353e-08  2.60115462e-08 -3.09765123e-08  2.44592273e-08
+  1.33914616e-08 -9.18425314e-08 -8.78260149e-08 -5.20969417e-08
+  1.21213352e-07  2.85237728e-07 -6.99402681e-08]
+Model predict(new sampled X)... mean: 0.014797, std:0.022838
+Acq(new sampled X): 0.007945
+Y(new sampled X): 0.081730, simulation time: 94.890392
+Current best design:  [1.45654843e-07 1.02527243e-07 1.32889056e-07 1.25012799e-07
+ 1.13894274e-07 6.36514527e-07 6.21811960e-07 6.46094186e-07
+ 7.61381240e-07 7.51683941e-07 1.10000000e-07]
+Current best function value: 0.011421
+Gpr model mean:8.013e-02, max: 1.843e-01, min: 1.142e-02
+----------
+Number of function evaluations: 68
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-9.01643594e-08  2.14830129e-08 -6.55290593e-08  1.96399660e-08
+ -2.72923208e-10 -5.97602941e-08  1.68713162e-07  1.85815217e-07
+ -1.71010275e-07 -4.84848996e-07 -8.80889492e-08]
+Model predict(new sampled X)... mean: 0.010594, std:0.002144
+Acq(new sampled X): 0.009950
+Y(new sampled X): 0.011712, simulation time: 92.848669
+Current best design:  [1.45654843e-07 1.02527243e-07 1.32889056e-07 1.25012799e-07
+ 1.13894274e-07 6.36514527e-07 6.21811960e-07 6.46094186e-07
+ 7.61381240e-07 7.51683941e-07 1.10000000e-07]
+Current best function value: 0.011421
+Gpr model mean:8.019e-02, max: 1.843e-01, min: 1.059e-02
+----------
+Number of function evaluations: 69
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.16333979e-08 -2.19123434e-08  9.52147127e-09 -3.21251532e-08
+ -1.56421893e-08 -3.42565056e-07  1.03078080e-07 -1.48677459e-07
+ -3.67458552e-07 -1.65993935e-07 -2.26665999e-08]
+Model predict(new sampled X)... mean: 0.010981, std:0.001454
+Acq(new sampled X): 0.010544
+Y(new sampled X): 0.011769, simulation time: 92.937207
+Current best design:  [1.45654843e-07 1.02527243e-07 1.32889056e-07 1.25012799e-07
+ 1.13894274e-07 6.36514527e-07 6.21811960e-07 6.46094186e-07
+ 7.61381240e-07 7.51683941e-07 1.10000000e-07]
+Current best function value: 0.011421
+Gpr model mean:7.972e-02, max: 1.843e-01, min: 1.098e-02
+----------
+Number of function evaluations: 70
+Optimize acq message:  Maximum number of function evaluations has been exceeded.
+Optimize initial X - new sampled X:  [-5.18859095e-08  1.56686965e-08 -3.42784247e-08 -5.51254603e-08
+  2.96612517e-08 -3.62577330e-08  1.89674530e-07 -2.74185573e-07
+ -2.05224373e-07 -1.82341458e-07 -1.05555016e-07]
+Model predict(new sampled X)... mean: 0.011076, std:0.000883
+Acq(new sampled X): 0.010811
+Y(new sampled X): 0.011068, simulation time: 94.784951
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:8.179e-02, max: 1.843e-01, min: 1.108e-02
+----------
+Number of function evaluations: 71
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.51697374e-08  1.60456231e-08 -2.46772201e-08  3.14641862e-08
+  5.89252760e-08 -1.37561926e-07  2.31740602e-07 -9.09264216e-08
+ -1.28534508e-07 -4.72374985e-08 -2.47181626e-08]
+Model predict(new sampled X)... mean: -0.002623, std:0.027946
+Acq(new sampled X): -0.011007
+Y(new sampled X): 0.072176, simulation time: 99.264036
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:8.042e-02, max: 1.843e-01, min: -2.623e-03
+----------
+Number of function evaluations: 72
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.69709198e-09  4.72497583e-08 -5.84651800e-08 -7.39602119e-08
+ -2.32221572e-08 -3.76321165e-08 -1.58631197e-07  3.37312857e-08
+  5.56282586e-08 -2.90365561e-07 -5.33360262e-08]
+Model predict(new sampled X)... mean: 0.011068, std:0.001028
+Acq(new sampled X): 0.010760
+Y(new sampled X): 0.011215, simulation time: 92.886097
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:7.909e-02, max: 1.843e-01, min: 1.107e-02
+----------
+Number of function evaluations: 73
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.10520196e-09 -2.21481635e-08 -4.12671590e-08  2.10785878e-08
+  5.83689420e-08 -4.20855992e-08  7.68796350e-08 -4.03684629e-09
+ -7.04677374e-08 -4.11080891e-07 -1.18025061e-08]
+Model predict(new sampled X)... mean: 0.017305, std:0.018785
+Acq(new sampled X): 0.011670
+Y(new sampled X): 0.024243, simulation time: 95.344764
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:7.965e-02, max: 1.843e-01, min: 1.107e-02
+----------
+Number of function evaluations: 74
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.51749771e-08  1.58755341e-08 -2.06219992e-08 -1.90062648e-08
+ -4.70575450e-08  2.16154169e-07 -1.52825421e-07  1.06109256e-07
+ -3.00845538e-07 -2.61478002e-08 -5.00951480e-08]
+Model predict(new sampled X)... mean: 0.016484, std:0.015758
+Acq(new sampled X): 0.011756
+Y(new sampled X): 0.030933, simulation time: 93.503980
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:8.008e-02, max: 1.843e-01, min: 1.107e-02
+----------
+Number of function evaluations: 75
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.50850553e-08  4.06373603e-08 -1.44968593e-08 -3.29644609e-08
+ -5.94052679e-09 -2.51525883e-07 -2.03695250e-07  1.44024244e-07
+ -3.05361164e-07 -2.66435852e-07 -1.42643909e-08]
+Model predict(new sampled X)... mean: 0.011108, std:0.001453
+Acq(new sampled X): 0.010672
+Y(new sampled X): 0.011341, simulation time: 95.003831
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:8.080e-02, max: 1.843e-01, min: 1.107e-02
+----------
+Number of function evaluations: 76
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 2.15843358e-08 -1.54072887e-08  3.60695144e-08 -3.61646193e-08
+ -2.13639028e-08 -5.89211796e-08 -1.25707426e-08  3.05421930e-07
+ -1.34167780e-07  1.39976734e-07  2.61646825e-09]
+Model predict(new sampled X)... mean: 0.019890, std:0.012775
+Acq(new sampled X): 0.016057
+Y(new sampled X): 0.038900, simulation time: 94.969425
+Current best design:  [1.47759188e-07 9.81884176e-08 1.31817069e-07 1.27902197e-07
+ 1.14956733e-07 6.67167276e-07 6.31172083e-07 6.69205898e-07
+ 7.39048942e-07 7.79120855e-07 1.10000000e-07]
+Current best function value: 0.011068
+Gpr model mean:7.867e-02, max: 1.843e-01, min: 1.107e-02
+----------
+Number of function evaluations: 77
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.35604483e-08 -4.16765034e-08  5.58105208e-09 -1.31007413e-08
+ -5.36844042e-08  1.11261741e-07  1.53438805e-07 -2.45668424e-07
+ -2.18753652e-07  6.88726673e-08 -4.40870503e-08]
+Model predict(new sampled X)... mean: 0.011427, std:0.003044
+Acq(new sampled X): 0.010514
+Y(new sampled X): 0.010954, simulation time: 93.545904
+Current best design:  [1.45263701e-07 1.01281036e-07 1.40951317e-07 1.37239394e-07
+ 1.22476647e-07 6.48604384e-07 5.92519395e-07 6.51028362e-07
+ 7.25533710e-07 7.69484974e-07 1.10000000e-07]
+Current best function value: 0.010954
+Gpr model mean:7.896e-02, max: 1.843e-01, min: 1.107e-02
+----------
+Number of function evaluations: 78
+Optimize acq message:  Maximum number of function evaluations has been exceeded.
+Optimize initial X - new sampled X:  [-9.68937773e-11  7.91325719e-09 -2.50785096e-08  5.46405422e-08
+ -1.09479244e-08 -1.22809906e-07  4.11090177e-08  1.81848211e-08
+ -2.55012782e-07 -1.88793151e-07 -9.27563690e-08]
+Model predict(new sampled X)... mean: 0.017022, std:0.022884
+Acq(new sampled X): 0.010157
+Y(new sampled X): 0.022443, simulation time: 93.109434
+Current best design:  [1.45263701e-07 1.01281036e-07 1.40951317e-07 1.37239394e-07
+ 1.22476647e-07 6.48604384e-07 5.92519395e-07 6.51028362e-07
+ 7.25533710e-07 7.69484974e-07 1.10000000e-07]
+Current best function value: 0.010954
+Gpr model mean:7.939e-02, max: 1.843e-01, min: 1.095e-02
+----------
+Number of function evaluations: 79
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.28147981e-08 -1.01780070e-08 -2.49457102e-08  6.36346352e-08
+  9.04435621e-09 -1.18547201e-08  8.83594222e-09  1.84173651e-09
+  2.70091489e-07  1.25499573e-07 -3.76313709e-08]
+Model predict(new sampled X)... mean: 0.011044, std:0.018138
+Acq(new sampled X): 0.005602
+Y(new sampled X): 0.031895, simulation time: 92.883768
+Current best design:  [1.45263701e-07 1.01281036e-07 1.40951317e-07 1.37239394e-07
+ 1.22476647e-07 6.48604384e-07 5.92519395e-07 6.51028362e-07
+ 7.25533710e-07 7.69484974e-07 1.10000000e-07]
+Current best function value: 0.010954
+Gpr model mean:8.001e-02, max: 1.843e-01, min: 1.095e-02
+----------
+Number of function evaluations: 80
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.12156097e-08 -2.76895328e-08 -2.56819376e-08 -2.28115838e-08
+ -4.21142234e-08  1.40249188e-07  9.48830375e-08 -9.18126287e-08
+ -2.05908912e-07 -2.26981889e-07 -8.26742719e-08]
+Model predict(new sampled X)... mean: 0.010945, std:0.000989
+Acq(new sampled X): 0.010649
+Y(new sampled X): 0.010739, simulation time: 93.187796
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:8.012e-02, max: 1.843e-01, min: 1.095e-02
+----------
+Number of function evaluations: 81
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.53105937e-08  8.20945131e-09  5.99430900e-08 -1.00378312e-08
+ -9.51177279e-09 -2.84517021e-07  4.47439864e-07 -2.78970910e-07
+ -1.63988796e-07 -4.96874155e-07 -7.18749069e-08]
+Model predict(new sampled X)... mean: 0.018249, std:0.024158
+Acq(new sampled X): 0.011001
+Y(new sampled X): 0.037955, simulation time: 97.845589
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.887e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 82
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-9.15202287e-08  3.13575770e-08 -3.45203070e-08 -3.95820687e-08
+ -6.79450350e-08  1.96938114e-07 -2.11585555e-07  9.40970884e-08
+ -4.15108120e-08 -3.87467818e-07 -7.85192060e-09]
+Model predict(new sampled X)... mean: 0.010913, std:0.001145
+Acq(new sampled X): 0.010569
+Y(new sampled X): 0.010974, simulation time: 95.391499
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:8.024e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 83
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.60184504e-09  6.26626123e-09 -2.23801359e-08 -3.82792134e-08
+ -9.58516588e-09  1.87498698e-07  2.94967372e-07 -1.40263535e-07
+ -1.08123186e-07 -4.44596934e-07 -1.02418079e-07]
+Model predict(new sampled X)... mean: 0.010831, std:0.000762
+Acq(new sampled X): 0.010602
+Y(new sampled X): 0.010931, simulation time: 94.815308
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.977e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 84
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-8.00773202e-08  4.99151326e-08 -5.11848009e-09  3.94722357e-10
+  1.75883933e-08 -4.50315239e-08 -2.26194796e-08 -3.59701072e-07
+ -2.65386206e-07 -4.40965383e-07 -1.02251855e-07]
+Model predict(new sampled X)... mean: 0.010844, std:0.000660
+Acq(new sampled X): 0.010646
+Y(new sampled X): 0.011007, simulation time: 95.285319
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.900e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 85
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.14833290e-08 -1.60621321e-08 -5.85991425e-08 -2.82529614e-08
+ -1.13640747e-08  1.30627408e-07  1.84092871e-07 -1.89860589e-07
+ -2.47604484e-07 -8.61194984e-08 -7.00253326e-08]
+Model predict(new sampled X)... mean: 0.010810, std:0.000686
+Acq(new sampled X): 0.010605
+Y(new sampled X): 0.010885, simulation time: 94.643027
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.914e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 86
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-9.68721279e-09 -4.90379901e-09  8.84335050e-09  6.21904534e-09
+  1.79720016e-08 -2.77076625e-07  3.29766796e-08  6.67990595e-08
+ -3.50897627e-08 -2.18713840e-07  1.02443782e-08]
+Model predict(new sampled X)... mean: 0.014907, std:0.016813
+Acq(new sampled X): 0.009863
+Y(new sampled X): 0.013985, simulation time: 96.930363
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.912e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 87
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.59881243e-08 -4.40081240e-09  4.19200286e-09 -5.55623968e-09
+  1.11980612e-08 -4.40506439e-07  1.18168279e-07 -2.65794940e-07
+ -5.18147583e-07 -3.49068217e-07 -9.47900484e-08]
+Model predict(new sampled X)... mean: 0.016583, std:0.014370
+Acq(new sampled X): 0.012272
+Y(new sampled X): 0.020407, simulation time: 97.027666
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.847e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 88
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.25166721e-08 -7.17749685e-09  2.27993650e-09 -4.65776556e-08
+ -3.71709245e-08 -6.20699793e-08 -1.01062551e-07 -1.11342488e-07
+ -3.06380340e-08 -3.14118706e-07 -6.75210542e-08]
+Model predict(new sampled X)... mean: 0.010740, std:0.000378
+Acq(new sampled X): 0.010627
+Y(new sampled X): 0.010769, simulation time: 92.945240
+Current best design:  [1.47498635e-07 1.00552648e-07 1.35094632e-07 1.35947500e-07
+ 1.22601101e-07 6.47971841e-07 6.11434973e-07 6.60267665e-07
+ 7.34394994e-07 7.65651011e-07 1.10000000e-07]
+Current best function value: 0.010739
+Gpr model mean:7.935e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 89
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-8.63665151e-08 -4.12714112e-08  4.56545989e-09  3.71768490e-09
+ -6.17613354e-08 -1.20106554e-07  1.65909212e-07  9.43894951e-08
+  2.17302696e-08  9.36941978e-09 -1.08517944e-08]
+Model predict(new sampled X)... mean: 0.010735, std:0.000217
+Acq(new sampled X): 0.010670
+Y(new sampled X): 0.010710, simulation time: 95.235962
+Current best design:  [1.45684760e-07 1.01269078e-07 1.34081742e-07 1.36164528e-07
+ 1.20714522e-07 6.45468351e-07 6.10361297e-07 6.61469949e-07
+ 7.30976004e-07 7.64878455e-07 1.10000000e-07]
+Current best function value: 0.010710
+Gpr model mean:7.826e-02, max: 1.843e-01, min: 1.074e-02
+----------
+Number of function evaluations: 90
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.37764783e-08  1.66735339e-08 -8.05200879e-08 -7.84456401e-09
+ -2.84883582e-08 -2.45416519e-07  5.92950599e-08 -2.06552623e-07
+ -2.56474985e-07 -1.30185295e-07 -6.44300401e-08]
+Model predict(new sampled X)... mean: 0.010735, std:0.000229
+Acq(new sampled X): 0.010667
+Y(new sampled X): 0.010865, simulation time: 95.034685
+Current best design:  [1.45684760e-07 1.01269078e-07 1.34081742e-07 1.36164528e-07
+ 1.20714522e-07 6.45468351e-07 6.10361297e-07 6.61469949e-07
+ 7.30976004e-07 7.64878455e-07 1.10000000e-07]
+Current best function value: 0.010710
+Gpr model mean:7.858e-02, max: 1.843e-01, min: 1.071e-02
+----------
+Number of function evaluations: 91
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.77030748e-09  7.08293901e-08  1.97896803e-08  5.27702578e-09
+  3.02855301e-08 -1.49081596e-07 -1.98878088e-08  2.39051837e-07
+ -1.37241021e-07 -2.87416138e-07 -6.95673336e-08]
+Model predict(new sampled X)... mean: 0.013829, std:0.007328
+Acq(new sampled X): 0.011630
+Y(new sampled X): 0.013020, simulation time: 95.248290
+Current best design:  [1.45684760e-07 1.01269078e-07 1.34081742e-07 1.36164528e-07
+ 1.20714522e-07 6.45468351e-07 6.10361297e-07 6.61469949e-07
+ 7.30976004e-07 7.64878455e-07 1.10000000e-07]
+Current best function value: 0.010710
+Gpr model mean:7.838e-02, max: 1.843e-01, min: 1.071e-02
+----------
+Number of function evaluations: 92
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 2.47078941e-09  3.64857250e-08  9.92019174e-09 -6.19578980e-08
+ -2.99156258e-08 -1.24411551e-07 -5.64620766e-09 -2.61525858e-07
+  1.27061829e-07 -4.32763527e-07 -1.02446435e-07]
+Model predict(new sampled X)... mean: 0.010679, std:0.000431
+Acq(new sampled X): 0.010550
+Y(new sampled X): 0.010466, simulation time: 93.234651
+Current best design:  [1.46763778e-07 1.02207369e-07 1.37907391e-07 1.38288550e-07
+ 1.24881856e-07 6.31816743e-07 6.05972795e-07 6.60905125e-07
+ 7.05963079e-07 7.55849190e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:7.927e-02, max: 1.843e-01, min: 1.068e-02
+----------
+Number of function evaluations: 93
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-8.03396103e-08  5.36020374e-08  3.20360796e-09  1.26136615e-08
+ -1.85190035e-09 -2.10847159e-07  3.08466451e-07  8.96068364e-08
+ -3.72171813e-07  1.94551351e-07 -1.89635417e-08]
+Model predict(new sampled X)... mean: 0.013394, std:0.005455
+Acq(new sampled X): 0.011757
+Y(new sampled X): 0.011026, simulation time: 83.258065
+Current best design:  [1.46763778e-07 1.02207369e-07 1.37907391e-07 1.38288550e-07
+ 1.24881856e-07 6.31816743e-07 6.05972795e-07 6.60905125e-07
+ 7.05963079e-07 7.55849190e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:7.857e-02, max: 1.843e-01, min: 1.047e-02
+----------
+Number of function evaluations: 94
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.71382855e-08  2.33564012e-08 -7.97065542e-08 -6.25912569e-08
+ -8.72640490e-08  4.13545150e-08  1.77136168e-07 -3.46792345e-08
+  2.07334274e-07  6.59274582e-08 -8.88809013e-08]
+Model predict(new sampled X)... mean: 0.010675, std:0.002013
+Acq(new sampled X): 0.010071
+Y(new sampled X): 0.011506, simulation time: 92.593368
+Current best design:  [1.46763778e-07 1.02207369e-07 1.37907391e-07 1.38288550e-07
+ 1.24881856e-07 6.31816743e-07 6.05972795e-07 6.60905125e-07
+ 7.05963079e-07 7.55849190e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:7.976e-02, max: 1.843e-01, min: 1.047e-02
+----------
+Number of function evaluations: 95
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.36785451e-08  4.71453668e-09 -1.54054489e-08 -8.45211768e-08
+ -4.73052160e-08  2.33586835e-07  2.92352865e-07  2.26396602e-07
+ -2.16576776e-07 -6.55894060e-08 -2.43384102e-08]
+Model predict(new sampled X)... mean: 0.010511, std:0.000599
+Acq(new sampled X): 0.010331
+Y(new sampled X): 0.010609, simulation time: 95.547757
+Current best design:  [1.46763778e-07 1.02207369e-07 1.37907391e-07 1.38288550e-07
+ 1.24881856e-07 6.31816743e-07 6.05972795e-07 6.60905125e-07
+ 7.05963079e-07 7.55849190e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:7.984e-02, max: 1.843e-01, min: 1.047e-02
+----------
+Number of function evaluations: 96
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-5.45675888e-08  6.38091991e-08 -4.21046116e-08  6.42258430e-08
+  8.73462690e-09  5.95631158e-09  1.31412653e-07  1.43343797e-07
+ -2.79856652e-07 -1.50705671e-07 -1.60963412e-08]
+Model predict(new sampled X)... mean: 0.011592, std:0.005184
+Acq(new sampled X): 0.010037
+Y(new sampled X): 0.015212, simulation time: 99.271438
+Current best design:  [1.46763778e-07 1.02207369e-07 1.37907391e-07 1.38288550e-07
+ 1.24881856e-07 6.31816743e-07 6.05972795e-07 6.60905125e-07
+ 7.05963079e-07 7.55849190e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:8.049e-02, max: 1.843e-01, min: 1.047e-02
+----------
+Number of function evaluations: 97
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.23304209e-08  4.17624173e-08 -1.92063179e-08  2.57442183e-09
+  7.45007903e-09  4.56384012e-08  2.14927124e-07  1.98253752e-07
+  1.46616841e-07 -3.96312480e-08 -7.67415903e-08]
+Model predict(new sampled X)... mean: 0.010508, std:0.000349
+Acq(new sampled X): 0.010403
+Y(new sampled X): 0.010466, simulation time: 93.076158
+Current best design:  [1.48586331e-07 1.03690482e-07 1.35891110e-07 1.40063905e-07
+ 1.28808037e-07 6.21925028e-07 6.11669318e-07 6.61053612e-07
+ 6.96780209e-07 7.54075690e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:7.925e-02, max: 1.843e-01, min: 1.047e-02
+----------
+Number of function evaluations: 98
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.90221752e-08 -1.56452089e-09 -7.84113602e-08 -1.06701223e-09
+ -5.60357761e-08  1.51492424e-07  1.28836360e-08 -1.64542013e-07
+ -1.51554114e-07 -1.42295621e-07 -7.13336048e-08]
+Model predict(new sampled X)... mean: 0.010477, std:0.000220
+Acq(new sampled X): 0.010411
+Y(new sampled X): 0.010496, simulation time: 92.810312
+Current best design:  [1.48586331e-07 1.03690482e-07 1.35891110e-07 1.40063905e-07
+ 1.28808037e-07 6.21925028e-07 6.11669318e-07 6.61053612e-07
+ 6.96780209e-07 7.54075690e-07 1.10000000e-07]
+Current best function value: 0.010466
+Gpr model mean:7.969e-02, max: 1.843e-01, min: 1.047e-02
+----------
+Number of function evaluations: 99
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.33321567e-08 -1.68989308e-08  7.64769446e-09 -5.20585598e-08
+ -6.14831773e-08  4.87595765e-08  1.12482870e-07  1.39470763e-07
+  6.99857958e-08 -3.66332706e-07 -7.00606602e-08]
+Model predict(new sampled X)... mean: 0.010459, std:0.000126
+Acq(new sampled X): 0.010421
+Y(new sampled X): 0.010413, simulation time: 92.778960
+Current best design:  [1.46397700e-07 1.02994387e-07 1.37731532e-07 1.38948017e-07
+ 1.27892855e-07 6.21315735e-07 6.09861664e-07 6.61694022e-07
+ 7.01526707e-07 7.50582173e-07 1.10000000e-07]
+Current best function value: 0.010413
+Gpr model mean:7.982e-02, max: 1.843e-01, min: 1.046e-02
+----------
+Number of function evaluations: 100
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-5.49126061e-08  4.81053658e-09 -1.77392513e-08  1.03760337e-08
+ -2.17893587e-08  2.69324681e-08 -9.12279749e-08  2.00142548e-07
+ -3.03224789e-07 -4.11577329e-07 -9.67953533e-08]
+Model predict(new sampled X)... mean: 0.010431, std:0.000120
+Acq(new sampled X): 0.010395
+Y(new sampled X): 0.010373, simulation time: 93.123739
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:8.093e-02, max: 1.843e-01, min: 1.041e-02
+----------
+Number of function evaluations: 101
+Optimize acq message:  Maximum number of function evaluations has been exceeded.
+Optimize initial X - new sampled X:  [-6.10691283e-08 -1.20160615e-08 -4.87161572e-08 -5.38478735e-08
+ -5.87356062e-08  1.14712078e-07 -1.98773370e-08  2.13509203e-07
+  9.03102593e-08  1.62758589e-08 -4.52884923e-08]
+Model predict(new sampled X)... mean: 0.010559, std:0.000832
+Acq(new sampled X): 0.010310
+Y(new sampled X): 0.010727, simulation time: 91.286402
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.959e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 102
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 1.14095294e-08  2.22986289e-09  5.92487055e-08 -7.12051725e-09
+  8.30226299e-09  3.27089537e-08 -3.87673674e-07  6.53060612e-08
+ -2.62317628e-08  3.80873659e-08 -4.11969136e-08]
+Model predict(new sampled X)... mean: 0.025302, std:0.034411
+Acq(new sampled X): 0.014978
+Y(new sampled X): 0.025051, simulation time: 96.576883
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.893e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 103
+Optimize acq message:  Maximum number of function evaluations has been exceeded.
+Optimize initial X - new sampled X:  [-7.39077019e-08 -4.54373634e-08 -3.66400905e-08  9.00916067e-09
+ -6.14780663e-08  4.55133130e-08  1.52076332e-07  1.89807321e-07
+ -2.64640336e-07  1.72976222e-08 -8.36937009e-08]
+Model predict(new sampled X)... mean: 0.011524, std:0.000620
+Acq(new sampled X): 0.011338
+Y(new sampled X): 0.011931, simulation time: 92.796449
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:8.023e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 104
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-5.67032200e-09  5.24443962e-08  1.89661677e-08  2.01986293e-08
+  2.38014993e-08 -1.18056102e-07 -2.99325343e-08 -1.05500102e-07
+ -2.01054267e-07 -2.74160332e-07  1.06518676e-08]
+Model predict(new sampled X)... mean: 0.008709, std:0.006046
+Acq(new sampled X): 0.006895
+Y(new sampled X): 0.016498, simulation time: 93.655084
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.973e-02, max: 1.843e-01, min: 8.709e-03
+----------
+Number of function evaluations: 105
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 1.56685637e-09  3.61395840e-08 -5.17186403e-08 -6.79452321e-08
+  5.16812589e-08 -1.67490346e-07 -3.17936028e-08 -2.68286532e-07
+ -1.78128506e-07 -2.14950064e-07 -3.99369468e-08]
+Model predict(new sampled X)... mean: 0.015666, std:0.015648
+Acq(new sampled X): 0.010972
+Y(new sampled X): 0.027463, simulation time: 95.653549
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.918e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 106
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-8.22120452e-08  2.27645312e-08 -1.13575129e-08 -9.12495337e-08
+ -4.24580611e-08 -2.12417132e-07 -1.41773047e-07 -1.02754574e-07
+ -1.56143162e-07  1.68185512e-07 -6.00310388e-09]
+Model predict(new sampled X)... mean: 0.010430, std:0.000553
+Acq(new sampled X): 0.010264
+Y(new sampled X): 0.010908, simulation time: 92.993817
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.965e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 107
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.00986866e-09 -2.89302522e-09 -4.30587052e-08  1.68928529e-09
+ -2.26104816e-08 -9.09909500e-09  2.45036895e-07  2.66494971e-07
+ -1.74986995e-07 -2.91366907e-07  7.86858253e-09]
+Model predict(new sampled X)... mean: 0.008710, std:0.007378
+Acq(new sampled X): 0.006497
+Y(new sampled X): 0.012203, simulation time: 95.001480
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.858e-02, max: 1.843e-01, min: 8.710e-03
+----------
+Number of function evaluations: 108
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-7.88015758e-08  3.36758059e-08 -6.56320381e-09 -2.93060751e-08
+ -1.99729557e-08 -2.95065881e-07 -2.52182633e-07 -3.14138310e-07
+ -1.30444326e-07 -2.61191913e-07 -8.72524820e-08]
+Model predict(new sampled X)... mean: 0.010343, std:0.000280
+Acq(new sampled X): 0.010260
+Y(new sampled X): 0.010631, simulation time: 95.096265
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.872e-02, max: 1.850e-01, min: 1.034e-02
+----------
+Number of function evaluations: 109
+Optimize acq message:  Maximum number of function evaluations has been exceeded.
+Optimize initial X - new sampled X:  [-5.83833629e-08 -3.51138166e-09  1.02677705e-09 -8.01723833e-09
+ -5.45437091e-08  2.67895471e-08 -1.75704559e-07 -2.60810467e-07
+  1.88176927e-07 -3.90894148e-07 -8.70458365e-08]
+Model predict(new sampled X)... mean: 0.010437, std:0.000446
+Acq(new sampled X): 0.010303
+Y(new sampled X): 0.010670, simulation time: 95.260926
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.969e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 110
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-2.50850521e-08 -5.16409097e-09 -2.20467586e-09 -5.93315892e-08
+ -7.38933304e-08  3.31276717e-07 -4.76917082e-08 -4.27230887e-07
+ -5.44872836e-07 -3.47988183e-07 -4.03836521e-08]
+Model predict(new sampled X)... mean: 0.016031, std:0.022961
+Acq(new sampled X): 0.009142
+Y(new sampled X): 0.026832, simulation time: 95.441807
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.903e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 111
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 2.15807853e-08  2.31745729e-08 -1.48689381e-08  3.10993488e-08
+ -1.85229675e-08 -2.66821360e-07 -3.35406577e-07 -1.19101779e-07
+ -6.47449580e-09 -2.72765031e-08 -1.12534412e-08]
+Model predict(new sampled X)... mean: 0.023846, std:0.023515
+Acq(new sampled X): 0.016791
+Y(new sampled X): 0.028659, simulation time: 94.853719
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.918e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 112
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-6.82052158e-08 -4.20825571e-08 -2.97464083e-08 -4.81233369e-08
+  1.24098429e-08 -1.71029415e-07 -6.91690647e-08 -1.86566872e-07
+ -7.27685770e-08 -3.56856591e-07 -2.72104984e-08]
+Model predict(new sampled X)... mean: 0.010363, std:0.000186
+Acq(new sampled X): 0.010307
+Y(new sampled X): 0.010509, simulation time: 93.138749
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.881e-02, max: 1.843e-01, min: 1.036e-02
+----------
+Number of function evaluations: 113
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.32839304e-08 -4.28429072e-08 -4.17593952e-08 -1.78915897e-08
+ -2.94552325e-08  2.20410865e-07  2.55131547e-07 -1.41201290e-07
+ -2.58062342e-07  1.04856530e-07 -7.37585873e-08]
+Model predict(new sampled X)... mean: 0.010370, std:0.000182
+Acq(new sampled X): 0.010315
+Y(new sampled X): 0.010448, simulation time: 92.796231
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.871e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 114
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 2.75952427e-08  1.86504235e-08  1.90373831e-08 -9.28142904e-08
+ -4.88896818e-09 -3.53206495e-07  1.13420782e-07 -8.02779651e-08
+ -1.42108648e-07  2.68148314e-07 -3.52929196e-08]
+Model predict(new sampled X)... mean: 0.024232, std:0.025736
+Acq(new sampled X): 0.016511
+Y(new sampled X): 0.044003, simulation time: 97.023004
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.825e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 115
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.88085664e-08  2.74610013e-08 -3.44044903e-08  1.13017125e-08
+ -6.90903559e-09  1.32535521e-07 -1.75127476e-07 -7.89982492e-08
+ -3.09278773e-08  5.43569558e-09 -4.86876359e-09]
+Model predict(new sampled X)... mean: 0.010394, std:0.000319
+Acq(new sampled X): 0.010298
+Y(new sampled X): 0.010479, simulation time: 93.302088
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.905e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 116
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [ 2.59587483e-08  6.19128396e-08  3.79896350e-08 -2.45448201e-08
+  3.64758935e-08 -2.02135705e-07 -1.23525177e-07  2.25875492e-07
+ -2.05163380e-07  1.82351632e-08 -3.05931880e-08]
+Model predict(new sampled X)... mean: 0.033219, std:0.020766
+Acq(new sampled X): 0.026989
+Y(new sampled X): 0.027607, simulation time: 99.287879
+Current best design:  [1.46457100e-07 1.02566795e-07 1.37195081e-07 1.39471134e-07
+ 1.28477373e-07 6.17133761e-07 6.09218956e-07 6.63990441e-07
+ 7.03901778e-07 7.42713783e-07 1.10000000e-07]
+Current best function value: 0.010373
+Gpr model mean:7.859e-02, max: 1.843e-01, min: 1.037e-02
+----------
+Number of function evaluations: 117
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-8.34348801e-08  1.87601446e-08 -7.83820626e-08  8.45407147e-09
+ -5.66610982e-08  2.23176401e-08  2.11660783e-07  2.48973561e-08
+  1.69818647e-07  7.52077125e-08 -1.09215979e-07]
+Model predict(new sampled X)... mean: 0.010364, std:0.000100
+Acq(new sampled X): 0.010334
+Y(new sampled X): 0.010361, simulation time: 92.901824
+Current best design:  [1.47572708e-07 1.01558088e-07 1.38242043e-07 1.37790478e-07
+ 1.28753387e-07 6.18933106e-07 6.07984934e-07 6.63371344e-07
+ 7.05731261e-07 7.36877491e-07 1.10000000e-07]
+Current best function value: 0.010361
+Gpr model mean:7.820e-02, max: 1.843e-01, min: 1.036e-02
+----------
+Number of function evaluations: 118
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-3.39478015e-08  1.63158139e-08 -2.25671595e-08 -1.26668056e-08
+  1.11368799e-08  7.06367119e-08 -2.38348307e-07 -1.89263480e-08
+ -2.64198247e-07 -2.39229444e-08 -2.87390999e-08]
+Model predict(new sampled X)... mean: 0.010357, std:0.000029
+Acq(new sampled X): 0.010349
+Y(new sampled X): 0.010378, simulation time: 93.048098
+Current best design:  [1.47572708e-07 1.01558088e-07 1.38242043e-07 1.37790478e-07
+ 1.28753387e-07 6.18933106e-07 6.07984934e-07 6.63371344e-07
+ 7.05731261e-07 7.36877491e-07 1.10000000e-07]
+Current best function value: 0.010361
+Gpr model mean:7.763e-02, max: 1.843e-01, min: 1.036e-02
+----------
+Number of function evaluations: 119
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-4.42824556e-08  3.16357192e-08 -7.82411241e-08 -2.22426089e-08
+  1.27598254e-08  1.98130159e-07 -5.75308318e-08  1.81332690e-07
+ -1.51394582e-07 -1.36990712e-08 -1.06134000e-07]
+Model predict(new sampled X)... mean: 0.010353, std:0.000058
+Acq(new sampled X): 0.010336
+Y(new sampled X): 0.010371, simulation time: 93.323904
+Current best design:  [1.47572708e-07 1.01558088e-07 1.38242043e-07 1.37790478e-07
+ 1.28753387e-07 6.18933106e-07 6.07984934e-07 6.63371344e-07
+ 7.05731261e-07 7.36877491e-07 1.10000000e-07]
+Current best function value: 0.010361
+Gpr model mean:7.867e-02, max: 1.843e-01, min: 1.035e-02
+----------
+Number of function evaluations: 120
+Optimize acq message:  Optimization terminated successfully.
+Optimize initial X - new sampled X:  [-1.14336485e-08 -1.70201688e-08 -3.19175904e-08  2.69048697e-08
+  7.18157489e-08  3.23163250e-07 -1.54105727e-07 -2.20533933e-07
+ -4.05879140e-08 -6.57431852e-08 -3.55368314e-08]
+Model predict(new sampled X)... mean: 0.010542, std:0.005964
+Acq(new sampled X): 0.008753
+Y(new sampled X): 0.006931, simulation time: 95.048357
+Current best design:  [1.50000000e-07 6.98021088e-08 1.17692448e-07 6.88428439e-08
+ 6.60810301e-08 5.73237321e-07 4.84512770e-07 5.42656020e-07
+ 6.66685397e-07 6.14175720e-07 8.20624927e-08]
+Current best function value: 0.006931
+Gpr model mean:7.897e-02, max: 1.843e-01, min: 1.036e-02
+----------Finish Bayes Opt----------
+ optimal metrics: 0.006931

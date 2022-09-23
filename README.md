@@ -1,10 +1,10 @@
 # Bayesian Optimization - JLT2022
 
-This repo contains code for our paper titled 'Automatic Synthesis of Broadband Silicon Photonic Devices via Bayesian Optimization' accepted by IEEE Journal of Lightwave Technology (IEEE JLT). It will be online in the following days.
+This repo contains code for our paper titled 'Automatic Synthesis of Broadband Silicon Photonic Devices via Bayesian Optimization' accepted by IEEE Journal of Lightwave Technology (IEEE JLT).
 
 Bayesian optimziation is a generic optimization approach suitable to medium dimensional problems (e.g., <20 design variables) in many application areas. If you are looking for a bare-bone implementation of Bayesian optimization and want to adapt it for your purpose, please see the folder SimpleBO. If you are interested in reproducing results of our paper, please see the folder Directional-Coupler, Y-Splitter, and Ring-Resonator.
 
-If you find our code to be useful, please cite our [conference paper](https://opg.optica.org/viewmedia.cfm?r=1&uri=CLEO_AT-2022-JW3B.156&seq=0), the early access version of our [journal paper](https://ieeexplore.ieee.org/abstract/document/9893366).
+If you find our code to be useful, please cite our [conference paper](https://opg.optica.org/viewmedia.cfm?r=1&uri=CLEO_AT-2022-JW3B.156&seq=0), or the early-access version of our [journal paper](https://ieeexplore.ieee.org/abstract/document/9893366).
 
 
 ```

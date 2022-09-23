@@ -1,0 +1,111 @@
+yb_draw0;
+
+# Set the simulation bounds
+simbound_minvx = minvxWAFER - 0.7e-6; 
+simbound_maxvx = maxvxWAFER + 0.7e-6;
+simbound_minvy = minvyWAFER + 0.25e-6;
+simbound_maxvy = maxvyWAFER - 0.25e-6;
+#simbound_minvx = minvxWAFER;
+#simbound_maxvx = maxvxWAFER;
+#simbound_minvy = minvyWAFER;
+#simbound_maxvy = maxvyWAFER;
+simbound_minvz = - FDTD_below;
+simbound_maxvz = maxvzWAFER + FDTD_above;
+
+# Add the simulation region
+addfdtd;  # FDTD simulation volume
+set("x min", simbound_minvx); set("x max", simbound_maxvx); 
+set("y min", simbound_minvy); set("y max", simbound_maxvy);
+set("z min", simbound_minvz); set("z max", simbound_maxvz);
+set("mesh accuracy", MESH_ACCURACY);
+set("x min bc", "PML"); set("x max bc", "PML");
+set("y min bc", "PML"); set("y max bc", "PML");
+set("z min bc", "PML"); set("z max bc", "PML");
+#set("PML layers", 8);
+
+# global properties
+setglobalmonitor("frequency points", 100);
+setglobalmonitor("use source limits", 1);
+setglobalsource("center wavelength", 1.55e-6);
+setglobalsource("wavelength span", 0.1e-6);
+
+# add input port
+addport; set("name", "Port 1");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_minvx + 0.45e-6);
+set("y", 0); set("y span", 1.5e-6);
+set("z", Thickness_Si/2); set("z span", 1.5e-6);
+updateportmodes;
+
+# add output port
+addport; set("name", "Port 2");
+set("direction", "backward");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_maxvx - 0.45e-6);
+set("y", 2.85e-6); set("y span", 1.5e-6);
+set("z", Thickness_Si/2); set("z span", 1.5e-6);
+updateportmodes;
+
+addport; set("name", "Port 3");
+set("direction", "backward");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_maxvx - 0.45e-6);
+set("y", - 2.85e-6); set("y span", 1.5e-6);
+set("z", Thickness_Si/2); set("z span", 1.5e-6);
+updateportmodes;
+
+addpower;
+set("name", "surface");
+set("monitor type", "2D Z-normal");
+set("x min",-0.2e-6);set("x max",12.4e-6);
+set("y min",-4e-6);set("y max",4e-6);
+
+save("yb.fsp");
+
+# run;
+
+addjob(currentfilename);
+runjobs;
+load("yb.fsp");
+
+# S12 to 50%
+wrk=getresult("FDTD::ports::Port 2","expansion for port monitor");
+f = wrk.f;
+tmp1 = wrk.S;
+tmp2 = abs(tmp1) * abs(tmp1);
+
+# S11 to 0
+wrk=getresult("FDTD::ports::Port 1","expansion for port monitor");
+f = wrk.f;
+tmp5 = wrk.S;
+tmp6 = abs(tmp5) * abs(tmp5);
+
+
+#switchtolayout;
+#select("FDTD::ports");
+#set("source port","Port 2");
+#save("yb.fsp");
+#run;
+
+## S22 to 0
+#wrk=getresult("FDTD::ports::Port 2","expansion for port monitor");
+#tmp3 = wrk.S;
+#tmp4 = abs(tmp3) * abs(tmp3);
+
+tmp4 = zeros(size(tmp2,1)); # tirivl zero padding
+
+wavelength = c/f*1e6;
+#plot(wavelength,tmp2);
+
+output = [wavelength,tmp2, tmp6, tmp4];
+write("sim_res.txt",num2str(output),"overwrite");
+
+
+#x=pinch(getdata('surface','x'));
+#y=pinch(getdata('surface','y'));
+#wrkex = abs(getdata('surface','Ex'));
+#wrkey = abs(getdata('surface','Ey'));
+#wrkez = abs(getdata('surface','Ez'));
+#z=pinch(wrkex * wrkex + wrkey* wrkey + wrkez * wrkez);
+#z=pinch(z,3,50);
+#image(x,y,z);

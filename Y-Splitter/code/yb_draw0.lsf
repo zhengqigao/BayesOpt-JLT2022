@@ -1,0 +1,107 @@
+yb_start0;
+p_N = 101;
+
+# Add Cavity
+x_s = linspace(0,2,13)*1e-6;
+
+#trapzoid initialization
+#y_s =[0.5; 0.55833333; 0.61666667; 0.675; 0.73333333;
+     #0.79166667; 0.85; 0.90833333; 0.96666667; 1.025;
+     #1.08333333; 1.14166667; 1.2]/2*1e-6;
+
+# sqaure initialization
+y_s = [0.6;0.6;0.6;0.6;0.6;0.6;0.6;0.6;0.6;0.6;0.6;0.6;0.6]*1e-6;
+# y_s =[0.5;0.5;0.6;0.7;0.9;1.26;1.4;1.4;1.4;1.4;1.31;1.2;1.2]/2*1e-6;
+
+# if design variables exist, ...
+if (fileexists('./design_vari.mat')){
+    matlabload('./design_vari.mat');
+    y_s = design_vari;
+}
+
+x=linspace(0, 2, p_N)*1e-6;
+yUpper = spline(y_s, x_s, x);
+yLower = spline(-y_s, x_s, x);
+V_cavity = [x,yUpper; x(p_N:-1:1),yLower(p_N:-1:1)];
+
+addpoly; set("name", "Cavity");
+set("vertices", V_cavity);
+set("x", 0); set("y", 0);
+set("z min", 0); set("z max", Thickness_Si);
+set("material", Material_Si);
+set("alpha", 1);
+
+# Add Cosine Bend
+offset = Sep/2;
+x = linspace(0, Len, p_N);
+y = offset*(1-cos(pi*x/Len))/2;
+yUpper = y + Width_Si/2;
+yLower = y - Width_Si/2;
+V_cosine=[x,yUpper; x(p_N:-1:1),yLower(p_N:-1:1)];
+
+addpoly; set("name", "Upper Bend");
+set("vertices", V_cosine);
+set("x", 2e-6); set("y", 0.35e-6);
+set("z min", 0); set("z max", Thickness_Si);
+set("material", Material_Si);
+set("alpha", 1);
+
+V_cosine=[x,-yUpper; x(p_N:-1:1),-yLower(p_N:-1:1)];
+addpoly; set("name", "Lower Bend");
+set("vertices", V_cosine);
+set("x", 2e-6); set("y", -0.35e-6);
+set("z min", 0); set("z max", Thickness_Si);
+set("material", Material_Si);
+set("alpha", 1);
+
+# Add waveguides to the ends of the Y-branch to make sure that the device simulates properly.
+addrect; set("name", "Extension Input");
+set("x min", minvxWAFER - extra_space); set("x max", minvxWAFER);
+set("y", 0); set("y span", Width_Si);
+set("z min", 0);  set("z max", Thickness_Si);
+set("material", Material_Si);
+set("alpha", 1);
+
+addrect; set("name", "Extension Upper");
+set("x min", maxvxWAFER); set("x max", maxvxWAFER + extra_space);
+set("y", 0.35e-6 + Sep/2); set("y span", Width_Si);
+set("z min", 0);  set("z max", Thickness_Si);
+set("material", Material_Si);
+set("alpha", 1);
+
+addrect; set("name", "Extension Lower");
+set("x min", maxvxWAFER); set("x max", maxvxWAFER + extra_space); 
+set("y", -0.35e-6 - Sep/2); set("y span", Width_Si);
+set("z min", 0);  set("z max", Thickness_Si);
+set("material", Material_Si);
+set("alpha", 1);
+
+if (Thickness_Slab)
+{    # Add Slab
+    addrect; set("name", "Slab");
+    set("x min", minvxWAFER - extra_space); set("x max", maxvxWAFER + extra_space);
+    set("y min", minvyWAFER - extra_space); set("y max", maxvyWAFER + extra_space);
+    set("z min", 0); set("z max", thick_Slab);
+    set("material", Material_Si);
+    set("alpha", 1);
+}
+
+# Add the Buried Oxide
+addrect; set("name", "Oxide");
+set("x min", minvxWAFER - extra_space); set("x max", maxvxWAFER + extra_space);
+set("y min", minvyWAFER - extra_space); set("y max", maxvyWAFER + extra_space);
+set("z min", -2e-6); set("z max", 0);
+set("material", Material_Ox);
+set("alpha", 0.2);
+set("override mesh order from material database", 1);
+set("mesh order", 4); # Make the cladding the background, i.e., "send to back".
+     
+# Add the Cladding
+addrect; set("name", "Cladding");
+set("x min", minvxWAFER - extra_space); set("x max", maxvxWAFER + extra_space); 
+set("y min", minvyWAFER - extra_space); set("y max", maxvyWAFER + extra_space);
+set("z min", 0); set("z max", 2.3e-6);
+set("material", Material_Clad);
+set("alpha", 0.2);
+set("override mesh order from material database", 1);
+set("mesh order", 4); # Make the cladding the background, i.e., "send to back".

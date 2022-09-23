@@ -1,0 +1,37 @@
+newproject;
+
+# define materials
+Material_Clad = "SiO2 (Glass) - Palik";
+Material_Ox = "SiO2 (Glass) - Palik";
+
+Material_Si = "Si (Silicon) - Dispersive & Lossless";
+#Material_Si = "Si (Silicon) - Palik";
+matname = "Si (Silicon) - Dispersive & Lossless";
+newmaterial = addmaterial("Lorentz");
+setmaterial(newmaterial,"name",matname);
+setmaterial(matname,"Permittivity",7.98737492);
+setmaterial(matname,"Lorentz Linewidth",1e8);
+setmaterial(matname,"Lorentz Resonance",3.93282466e+15);
+setmaterial(matname,"Lorentz Permittivity",3.68799143);
+setmaterial(matname,"color",[0.85, 0, 0, 1]); # red
+
+# Costant Parameters
+Len = 10.5e-6;
+Sep = 5e-6;
+Width_Si = 500e-9;
+Thickness_Si = 220e-9;
+Thickness_Slab = 0;
+MESH_ACCURACY = 3; #8;
+FreqPts = 1001;
+
+# Extra simulation volume added.
+FDTD_above = 0.7e-6; 
+FDTD_below = 0.7e-6;
+
+extra_space = 5e-6;
+sim_space = 0.5e-6;
+
+# Set simulation bounds
+minvxWAFER = 0; minvyWAFER = - (Sep + 0.2e-6)/2 - 2e-6;
+maxvxWAFER = 2e-6 + Len; maxvyWAFER = (Sep + 0.2e-6)/2 + 2e-6;
+maxvzWAFER = Thickness_Si;

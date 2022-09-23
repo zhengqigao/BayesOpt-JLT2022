@@ -1,0 +1,114 @@
+function evaluation 70
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           13     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.18960D-02    |proj g|=  3.50000D-07
+
+
+ITERATION     1
+
+---------------- CAUCHY entered-------------------
+ There are           13   breakpoints 
+
+---------------- exit CAUCHY----------------------
+
+           0  variables are free at GCP            1
+ LINE SEARCH           0  times; norm of step =    8.2764726786234239E-007
+
+At iterate    1    f=  1.18639D-02    |proj g|=  5.50000D-07
+
+
+ITERATION     2
+
+---------------- CAUCHY entered-------------------
+ There are            7   breakpoints 
+
+ GCP found in this segment
+Piece      1 --f1, f2 at start point  -5.2034D+09  3.5223D+21
+Distance to the stationary point =   1.4773D-12
+
+---------------- exit CAUCHY----------------------
+
+           0  variables leave;            7  variables enter
+           7  variables are free at GCP            2
+
+----------------SUBSM entered-----------------
+
+
+----------------exit SUBSM --------------------
+
+ LINE SEARCH           0  times; norm of step =    1.2899748684923914E-007
+
+At iterate    2    f=  3.51604D-03    |proj g|=  5.32420D-07
+
+
+ITERATION     3
+
+---------------- CAUCHY entered-------------------
+ There are            7   breakpoints 
+
+ GCP found in this segment
+Piece      1 --f1, f2 at start point  -2.7140D+09  4.0747D+20
+Distance to the stationary point =   6.6605D-12
+
+---------------- exit CAUCHY----------------------
+
+           0  variables leave;            0  variables enter
+           7  variables are free at GCP            3
+
+----------------SUBSM entered-----------------
+
+
+----------------exit SUBSM --------------------
+
+ LINE SEARCH           0  times; norm of step =    4.7210166331207695E-007
+
+At iterate    3    f=  1.14570D-03    |proj g|=  5.50000D-07
+
+
+ITERATION     4
+
+---------------- CAUCHY entered-------------------
+ There are           12   breakpoints 
+
+ GCP found in this segment
+Piece      1 --f1, f2 at start point  -2.0431D+08  3.9810D+19
+Distance to the stationary point =   5.1322D-12
+
+---------------- exit CAUCHY----------------------
+
+           0  variables leave;            5  variables enter
+          12  variables are free at GCP            4
+
+----------------SUBSM entered-----------------
+
+
+----------------exit SUBSM --------------------
+
+ LINE SEARCH           0  times; norm of step =    9.4481480016883330E-008
+
+At iterate    4    f=  7.41458D-04    |proj g|=  5.50000D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+   13      4      5     16     0     1   5.500D-07   7.415D-04
+  F =   7.4145823355078956E-004
+
+STOP: TOTAL NO. of f AND g EVALUATIONS EXCEEDS LIMIT        

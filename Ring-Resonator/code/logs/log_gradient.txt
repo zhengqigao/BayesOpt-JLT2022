@@ -1,0 +1,70 @@
+function evaluation 110
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           10     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.00000D+03    |proj g|=  5.00000D-08
+
+
+ITERATION     1
+
+---------------- CAUCHY entered-------------------
+ There are            4   breakpoints 
+
+ GCP found in this segment
+Piece      5 --f1, f2 at start point   0.0000D+00  0.0000D+00
+Distance to the stationary point =   0.0000D+00
+
+---------------- exit CAUCHY----------------------
+
+           6  variables are free at GCP            1
+ LINE SEARCH           0  times; norm of step =    9.9999999999999890E-008
+
+At iterate    1    f= -4.31251D-01    |proj g|=  1.00000D-07
+
+
+ITERATION     2
+
+---------------- CAUCHY entered-------------------
+ There are           10   breakpoints 
+
+ GCP found in this segment
+Piece      1 --f1, f2 at start point  -1.2941D+14  2.5838D+32
+Distance to the stationary point =   5.0087D-19
+
+---------------- exit CAUCHY----------------------
+
+           0  variables leave;            4  variables enter
+          10  variables are free at GCP            2
+
+----------------SUBSM entered-----------------
+
+
+----------------exit SUBSM --------------------
+
+ LINE SEARCH           7  times; norm of step =    7.1217846184565100E-012
+
+At iterate    2    f= -4.69826D-01    |proj g|=  9.99974D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+   10      2     10      6     0     0   1.000D-07  -4.698D-01
+  F = -0.46982577873646275     
+
+STOP: TOTAL NO. of f AND g EVALUATIONS EXCEEDS LIMIT        

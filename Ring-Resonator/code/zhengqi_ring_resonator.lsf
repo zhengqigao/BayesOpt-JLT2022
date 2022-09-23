@@ -1,0 +1,113 @@
+newproject;
+clear;
+
+# parameter for the waveguide
+lower_y_start = -4e-6; width_wg = 0.5e-6;
+upper_y_start = -lower_y_start;
+
+thickness_si = 0.18e-6;
+sep = 3e-6;
+
+
+if (fileexists('./design_arc.mat')){
+    matlabload('./design_arc.mat');
+    design_arc2 = mult(design_arc, [-1,0;0,1]);
+    design_arc2(:,1) = design_arc2(:,1) - sep;
+    }
+    
+addpoly;set("name","arc1");
+set("vertices",design_arc);
+set("x",0);set("y",0);
+set("z min",0); set("z max",thickness_si);
+set("material","Si (Silicon) - Palik");
+
+addpoly;set("name","arc2");
+set("vertices",design_arc2);
+set("x",0);set("y",0);
+set("z min",0); set("z max",thickness_si);
+set("material","Si (Silicon) - Palik");
+
+
+# burried oxide
+addrect; set("name","rec1");
+set("x",0); set("x span",30e-6);
+set("y",0); set("y span",16e-6);
+set("z min",-2e-6); set("z max",0);
+set("material","SiO2 (Glass) - Palik");
+set("override mesh order from material database", 1);
+set("mesh order", 4);
+set("alpha",0.2);
+
+# cladding oxide
+addrect; set("name","rec2");
+set("x",0); set("x span",30e-6);
+set("y",0); set("y span",16e-6);
+set("z min",0); set("z span",4e-6);
+set("material","SiO2 (Glass) - Palik");
+set("alpha", 0.2);
+set("override mesh order from material database", 1);
+set("mesh order", 4); 
+
+# lower waveguide
+addrect; set("name","rec_lower");
+set("x",0); set("x span",30e-6);
+set("y min",lower_y_start); set("y max",lower_y_start + width_wg);
+set("z min",0); set("z max",thickness_si);
+set("material","Si (Silicon) - Palik");
+
+# upper waveguide
+addrect; set("name","rec_upper");
+set("x",0); set("x span",30e-6);
+set("y max",upper_y_start); set("y min",upper_y_start - width_wg);
+set("z min",0); set("z max",thickness_si);
+set("material","Si (Silicon) - Palik");
+
+
+
+# waveguide in the middel connecting arcs
+half = floor(size(design_arc,1)/2);
+
+addrect; set("name","rec_middle_upper");
+set("x min",design_arc2(1,1));
+set("x max",design_arc(1,1));
+set("y max",design_arc(half+1,2)); 
+set("y min",design_arc(half,2));
+set("z min",0); set("z max",thickness_si);
+set("material","Si (Silicon) - Palik");
+
+# waveguide in the middel connecting arcs
+addrect; set("name","rec_middle_lower");
+set("x min",design_arc2(1,1));
+set("x max",design_arc(1,1));
+set("y max",design_arc(1,2)); 
+set("y min",design_arc(size(design_arc,1),2));
+set("z min",0); set("z max",thickness_si);
+set("material","Si (Silicon) - Palik");
+
+
+#N_poly = 16;
+#addpoly;set("name","rec_middle_upper");
+#xmin = poles3(size(poles3,1),1)+origin_x2;
+#xmax = poles(1,1)+origin_x1;
+#xs = linspace(xmin,xmax,N_poly/2);
+#xs = [xs;xs(N_poly/2:-1:1)];
+
+#ymin = poles(1,2)-0.5*base_width;
+#ymax = poles(1,2)+0.5*base_width;
+#ys = [ymax * ones(N_poly/2,1);ymin*ones(N_poly/2,1)];
+
+
+#vertices = [xs,ys];
+#set("vertices",vertices);
+#set("x",0);set("y",0);
+#set("z min",0); set("z max",thickness_si);
+#set("material","Si (Silicon) - Palik");
+
+#addpoly;set("name","rec_middle_lower");
+#vertices2 = [xs,-ys];
+#set("vertices",vertices2);
+#set("x",0);set("y",0);
+#set("z min",0); set("z max",thickness_si);
+#set("material","Si (Silicon) - Palik");
+
+

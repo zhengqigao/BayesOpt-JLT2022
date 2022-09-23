@@ -1,0 +1,106 @@
+zhengqi_ring_resonator;
+
+MESH_ACCURACY = 3;
+
+# Set the simulation bounds
+simbound_minvx = -14e-6 - 0.7e-6;
+simbound_maxvx = 14e-6 + 0.7e-6;
+simbound_minvy = -7e-6 + 0.25e-6;
+simbound_maxvy = 7e-6 - 0.25e-6;
+simbound_minvz = - 0.7e-6;
+simbound_maxvz = thickness_si + 0.7e-6;
+
+# Add the simulation region
+addfdtd;  # FDTD simulation volume
+set("x min", simbound_minvx); set("x max", simbound_maxvx);
+set("y min", simbound_minvy); set("y max", simbound_maxvy);
+set("z min", simbound_minvz); set("z max", simbound_maxvz);
+set("mesh accuracy", MESH_ACCURACY);
+set("simulation time",5000e-15);
+set("x min bc", "PML"); set("x max bc", "PML");
+set("y min bc", "PML"); set("y max bc", "PML");
+set("z min bc", "PML"); set("z max bc", "PML");
+#set("PML layers", 8);
+
+# global properties
+setglobalmonitor("frequency points", 400);
+setglobalmonitor("use source limits", 1);
+setglobalsource("center wavelength", 1.55e-6);
+setglobalsource("wavelength span", 0.1e-6);
+
+## add input port
+addport; set("name", "Port 1");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_minvx + 0.45e-6);
+set("y", upper_y_start-0.5*width_wg); set("y span", 1.5e-6);
+set("z", 0); set("z span", 1e-6);
+updateportmodes;
+
+# add output port
+addport; set("name", "Port 2");
+set("direction", "backward");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_maxvx - 0.45e-6);
+set("y", upper_y_start-0.5*width_wg); set("y span", 1.5e-6);
+set("z", 0); set("z span", 1e-6);
+updateportmodes;
+
+addport; set("name", "Port 3");
+set("direction", "backward");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_maxvx - 0.45e-6);
+set("y", lower_y_start+0.5*width_wg); set("y span", 1.5e-6);
+set("z", 0); set("z span", 1e-6);
+updateportmodes;
+
+addport; set("name", "Port 4");
+set("direction", "forward");
+set("mode selection", "fundamental TE mode");
+set("x", simbound_minvx + 0.45e-6);
+set("y", lower_y_start+0.5*width_wg); set("y span", 1.5e-6);
+set("z", 0); set("z span", 1e-6);
+updateportmodes;
+
+save("resonator.fsp");
+# run;
+addjob(currentfilename);
+runjobs;
+load("resonator.fsp");
+
+
+# S11
+wrk=getresult("FDTD::ports::Port 1","expansion for port monitor");
+f= wrk.f;
+tmp = wrk.S;
+tmp1 = abs(tmp) * abs(tmp);
+
+# S12
+wrk=getresult("FDTD::ports::Port 2","expansion for port monitor");
+tmp = wrk.S;
+tmp2 = abs(tmp) * abs(tmp);
+
+# S13
+wrk=getresult("FDTD::ports::Port 3","expansion for port monitor");
+tmp = wrk.S;
+tmp3 = abs(tmp) * abs(tmp);
+
+# S14
+wrk=getresult("FDTD::ports::Port 4","expansion for port monitor");
+tmp = wrk.S;
+tmp4 = abs(tmp) * abs(tmp);
+
+wavelength = c/f*1e6;
+
+ plot(wavelength,tmp1);
+ holdon;
+ plot(wavelength,tmp2);
+ holdon;
+ plot(wavelength,tmp3);
+ holdon;
+ plot(wavelength,tmp4);
+
+output = [wavelength, tmp1, tmp2, tmp3, tmp4];
+write("sim_res.txt",num2str(output),"overwrite");
+
+
+

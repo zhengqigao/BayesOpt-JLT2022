@@ -4,11 +4,11 @@ This repo contains code for our paper titled 'Automatic Synthesis of Broadband S
 
 Bayesian optimziation is a generic optimization approach suitable to medium dimensional problems (e.g., <20 design variables) in many application areas. If you are looking for a bare-bone implementation of Bayesian optimization and want to adapt it for your purpose, please see the folder SimpleBO. If you are interested in reproducing results of our paper, please see the folder Directional-Coupler, Y-Splitter, and Ring-Resonator.
 
-If you find our code to be useful, please cite our [conference paper](https://opg.optica.org/viewmedia.cfm?r=1&uri=CLEO_AT-2022-JW3B.156&seq=0) at this time.
+If you find our code to be useful, please cite our [conference paper](https://opg.optica.org/viewmedia.cfm?r=1&uri=CLEO_AT-2022-JW3B.156&seq=0), the early access version of our [journal paper](https://ieeexplore.ieee.org/abstract/document/9893366).
 
 
 ```
-@inproceedings{Gao2022Automatic,
+@inproceedings{Gao2022Automatic1,
 author = {Zhengqi Gao and Zhengxing Zhang and Duane S. Boning},
 booktitle = {Conference on Lasers and Electro-Optics},
 journal = {Conference on Lasers and Electro-Optics},
@@ -18,6 +18,16 @@ title = {Automatic Design of a Broadband Directional Coupler via Bayesian Optimi
 year = {2022},
 url = {http://opg.optica.org/abstract.cfm?URI=CLEO_AT-2022-JW3B.156}
 }
+```
+
+```
+@ARTICLE{Gap2022Automatic2,
+  author={Gao, Zhengqi and Zhang, Zhengxing and Boning, Duane S.},
+  journal={Journal of Lightwave Technology}, 
+  title={Automatic Synthesis of Broadband Silicon Photonic Devices Via Bayesian Optimization}, 
+  year={2022},
+  pages={1-14},
+  doi={10.1109/JLT.2022.3207052}}
 ```
 
 Our Bayesian optimization code has been extensively used by researchers at many top universities, such as MIT, Columbia University, University of Notre Dame, UCSB. 
